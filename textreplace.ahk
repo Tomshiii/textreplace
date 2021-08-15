@@ -35,12 +35,15 @@
 :*:pepela::pepeLaugh
 :*:pogg::poggies
 
+
 ;----------------------------------------
 ; TEXT CORRECTIONS
 ;----------------------------------------
 :*:couldnt::couldn't
 :*:wouldnt::wouldn't
 :*:shouldnt::shouldn't
+:*:youre::you're
+
 
 ;----------------------------------------
 ; AUTOCORRECT
