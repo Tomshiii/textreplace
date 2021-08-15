@@ -8,7 +8,7 @@
 	if WinExist("ahk_exe notepad.exe") ;if vscode exists it'll simply activate it, if it doesn't, it'll open it
 			WinActivate
 	else
-		Run 'notepad.exe  "C:\Program Files\ahk\textreplace.ahk"' ;opens in vscode (how I edit it)
+		Run 'notepad.exe  "C:\Program Files\ahk\textreplace\textreplace.ahk"' ;opens in vscode (how I edit it)
 }
 #+r:: ;win + r reloads this script
 {
@@ -46,3 +46,4 @@
 ; AUTOCORRECT
 ;----------------------------------------
 ::tyope::type
+::arguement::argument
