@@ -1,1 +1,1 @@
-# textreplace
+This repo is to maintain my textreplace ahk script. I decided to pull it away from my main ahk repo as otherwise I'd be making commits all over the place anytime I added 1 correction.
