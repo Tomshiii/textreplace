@@ -1,5 +1,6 @@
 #Hotstring
 #SingleInstance Force
+TraySetIcon("C:\Program Files\ahk\textreplace\icon\icon.png")
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
