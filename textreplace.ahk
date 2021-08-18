@@ -51,3 +51,4 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;----------------------------------------
 ::tyope::type
 ::arguement::argument
+::fore::for
