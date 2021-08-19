@@ -44,6 +44,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 :*:wouldnt::wouldn't
 :*:shouldnt::shouldn't
 :*:youre::you're
+:*:wont::won't
 
 
 ;----------------------------------------
@@ -53,3 +54,4 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::arguement::argument
 ::fore::for
 ::dependant::dependent
+::withing::within
