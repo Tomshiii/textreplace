@@ -4,7 +4,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
-#a:: ;win + a opens notepad to edit this script
+#+e:: ;win + a opens notepad to edit this script
 {
 	if WinExist("ahk_exe notepad.exe") ;if vscode exists it'll simply activate it, if it doesn't, it'll open it
 			WinActivate
@@ -55,3 +55,5 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::fore::for
 ::dependant::dependent
 ::withing::within
+::unneccessary::unnecessary
+::unneccesary::unnecessary
