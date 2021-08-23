@@ -57,3 +57,5 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::withing::within
 ::unneccessary::unnecessary
 ::unneccesary::unnecessary
+::privilages::privileges
+::privilage::privilege
