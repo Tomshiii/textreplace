@@ -59,3 +59,4 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::unneccesary::unnecessary
 ::privilages::privileges
 ::privilage::privilege
+::tomorroqw::tomorrow
