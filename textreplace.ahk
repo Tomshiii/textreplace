@@ -31,20 +31,20 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;----------------------------------------
 ; TWITCH EMOTES
 ;----------------------------------------
-:*:omega::omegalul
-:*:oemg::omegalul
-:*:pepela::pepeLaugh
-:*:pogg::poggies
+::omega::omegalul
+::oemg::omegalul
+::pepela::pepeLaugh
+::pogg::poggies
 
 
 ;----------------------------------------
 ; TEXT CORRECTIONS
 ;----------------------------------------
-:*:couldnt::couldn't
-:*:wouldnt::wouldn't
-:*:shouldnt::shouldn't
-:*:youre::you're
-:*:wont::won't
+::couldnt::couldn't
+::wouldnt::wouldn't
+::shouldnt::shouldn't
+::youre::you're
+::wont::won't
 
 
 ;----------------------------------------
