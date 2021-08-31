@@ -62,3 +62,6 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::tomorroqw::tomorrow
 ::structered::structured
 ::udpates::updates
+::happebn::happen
+::happenb::happen
+::everthing::everything
