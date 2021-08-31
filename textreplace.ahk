@@ -60,3 +60,5 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::privilages::privileges
 ::privilage::privilege
 ::tomorroqw::tomorrow
+::structered::structured
+::udpates::updates
