@@ -66,3 +66,4 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::happenb::happen
 ::everthing::everything
 ::insited::insisted
+::balistic::ballistic
