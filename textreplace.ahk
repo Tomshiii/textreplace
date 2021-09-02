@@ -31,10 +31,12 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;----------------------------------------
 ; TWITCH EMOTES
 ;----------------------------------------
+/*
 ::omega::omegalul
 ::oemg::omegalul
 ::pepela::pepeLaugh
 ::pogg::poggies
+*/
 
 
 ;----------------------------------------
