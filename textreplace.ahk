@@ -70,3 +70,4 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::insited::insisted
 ::balistic::ballistic
 ::assignement::assignment
+::accelorate::accelerate
