@@ -57,6 +57,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::assignement::assignment
 ::accelorate::accelerate
 ::acceloration::acceleration
+::accidently::accidentally
 
 ;b
 ::balistic::ballistic
