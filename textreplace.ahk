@@ -107,6 +107,8 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 
 ;s
 ::structered::structured
+::supress::suppress
+::supressed::suppressed
 
 ;t
 ::tyope::type
