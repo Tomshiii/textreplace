@@ -11,6 +11,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 	else
 		Run 'notepad.exe  "C:\Program Files\ahk\textreplace\textreplace.ahk"' ;opens in vscode (how I edit it)
 }
+/* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
 {
 	Reload
@@ -24,7 +25,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 				else
 					Run "C:\Users\Tom\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 			}
-}
+} */
 ;========================================
 ; HOTSTRINGS
 ;========================================
