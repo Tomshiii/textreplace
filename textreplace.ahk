@@ -71,6 +71,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 
 ;e
 ::everthing::everything
+::existant::existent
 
 ;f
 ::fore::for
