@@ -105,6 +105,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;q
 
 ;r
+::resoltion::resolution
 
 ;s
 ::structered::structured
