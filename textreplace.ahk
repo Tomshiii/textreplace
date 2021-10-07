@@ -116,6 +116,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;t
 ::tyope::type
 ::tomorroqw::tomorrow
+::tedius::tedious
 
 ;u
 ::unneccessary::unnecessary
