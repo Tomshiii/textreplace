@@ -98,6 +98,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;n
 
 ;o
+::occassions::occasions
 
 ;p
 ::privilages::privileges
