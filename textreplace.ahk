@@ -133,6 +133,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 
 ;w
 ::withing::within
+::writting::writing
 
 ;x
 
