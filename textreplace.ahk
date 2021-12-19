@@ -98,6 +98,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::manufactored::manufactured
 
 ;n
+::neccessary::necessary
 
 ;o
 ::occassions::occasions
