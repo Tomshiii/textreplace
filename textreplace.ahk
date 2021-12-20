@@ -103,6 +103,8 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;o
 ::occassions::occasions
 ::occurance::occurrence
+::obssessed::obsessed
+::obssesed::obsessed
 
 ;p
 ::privilages::privileges
