@@ -140,5 +140,6 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;x
 
 ;y
+::yoht::yacht
 
 ;z
