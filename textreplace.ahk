@@ -68,6 +68,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;d
 ::dependant::dependent
 ::devistating::devastating
+::dissapointed::disappointed
 
 ;e
 ::everthing::everything
