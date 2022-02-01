@@ -106,6 +106,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::occurance::occurrence
 ::obssessed::obsessed
 ::obssesed::obsessed
+::overide::override
 
 ;p
 ::privilages::privileges
