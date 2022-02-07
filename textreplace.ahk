@@ -94,6 +94,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;k
 
 ;l
+::literaelly::literally
 
 ;m
 ::manufactored::manufactured
