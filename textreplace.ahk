@@ -9,7 +9,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 	if WinExist("ahk_exe notepad.exe") ;if vscode exists it'll simply activate it, if it doesn't, it'll open it
 			WinActivate
 	else
-		Run 'notepad.exe ' A_ScriptDir "\textreplace.ahk" ;opens in vscode (how I edit it)
+		Run 'notepad.exe ' A_ScriptDir "\textreplace.ahk"
 }
 /* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
