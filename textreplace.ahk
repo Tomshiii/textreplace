@@ -112,6 +112,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ;p
 ::privilages::privileges
 ::privilage::privilege
+::preffered::preferred
 
 ;q
 
