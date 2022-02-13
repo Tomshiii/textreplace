@@ -74,6 +74,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::everthing::everything
 ::existant::existent
 ::effeciency::efficiency
+::extrodinaire::extraordinaire
 
 ;f
 ::fore::for
