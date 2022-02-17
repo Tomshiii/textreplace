@@ -89,6 +89,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 
 ;i
 ::insited::insisted
+::impatiant::impatient
 
 ;j
 
