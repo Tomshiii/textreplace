@@ -46,6 +46,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::couldnt::couldn't
 ::wouldnt::wouldn't
 ::shouldnt::shouldn't
+::didnt::didn't
 ::youre::you're
 ::wont::won't
 
