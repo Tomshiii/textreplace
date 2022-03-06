@@ -39,7 +39,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::pogg::poggies
 */
 
-;test
+
 ;----------------------------------------
 ; TEXT CORRECTIONS
 ;----------------------------------------
