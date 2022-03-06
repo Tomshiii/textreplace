@@ -38,7 +38,7 @@ TraySetIcon("C:\Program Files\ahk\textreplace\icon\text.ico")
 ::pepela::pepeLaugh
 ::pogg::poggies
 */
-
+;testing vscode
 
 ;----------------------------------------
 ; TEXT CORRECTIONS
