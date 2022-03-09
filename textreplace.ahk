@@ -79,6 +79,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::effeciency::efficiency
 ::extrodinaire::extraordinaire
 ::elequent::eloquent
+::exploaded::exploded
 
 ;f
 ::fore::for
