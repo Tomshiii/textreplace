@@ -63,6 +63,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::accidently::accidentally
 ::accessability::accessibility
 ::aquantences::acquaintances
+::assosiate::associate
 
 ;b
 ::balistic::ballistic
