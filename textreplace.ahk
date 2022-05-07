@@ -111,6 +111,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;n
 ::neccessary::necessary
+::nusense::nuisance
 
 ;o
 ::occassions::occasions
