@@ -99,6 +99,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::insited::insisted
 ::impatiant::impatient
 ::inherantly::inherently
+::inherant::inherent
 
 ;j
 
