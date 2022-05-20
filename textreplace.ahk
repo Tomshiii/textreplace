@@ -75,6 +75,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::dependant::dependent
 ::devistating::devastating
 ::dissapointed::disappointed
+::disengenious::disingenuous
+::desparately::desperately
+::desparate::desperate
 
 ;e
 ::everthing::everything
