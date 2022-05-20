@@ -87,6 +87,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::elequent::eloquent
 ::exploaded::exploded
 ::explaination::explanation
+::explanitory::explanatory
 
 ;f
 ::fore::for
