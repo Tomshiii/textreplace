@@ -92,7 +92,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;f
 ::fore::for
-
+::flabergasted::flabbergasted
 ;g
 
 ;h
