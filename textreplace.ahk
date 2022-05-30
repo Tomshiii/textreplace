@@ -89,6 +89,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::exploaded::exploded
 ::explaination::explanation
 ::explanitory::explanatory
+::erganomic::ergonomic
 
 ;f
 ::fore::for
@@ -138,6 +139,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;r
 ::resoltion::resolution
 ::recieve::receive
+::rejoyce::rejoice
 
 ;s
 ::structered::structured
