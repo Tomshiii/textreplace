@@ -117,6 +117,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;m
 ::manufactored::manufactured
+::manufatoring::manufacturing
 
 ;n
 ::neccessary::necessary
@@ -127,6 +128,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::occurance::occurrence
 ::obssessed::obsessed
 ::obssesed::obsessed
+::obssession::obsession
 ::overide::override
 
 ;p
