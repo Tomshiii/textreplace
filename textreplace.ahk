@@ -160,6 +160,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::udpates::updates
 
 ;v
+::varient::variant
 
 ;w
 ::withing::within
