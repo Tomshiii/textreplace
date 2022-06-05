@@ -71,6 +71,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::balistic::ballistic
 
 ;c
+::compisition::composition
 
 ;d
 ::dependant::dependent
