@@ -148,6 +148,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::structered::structured
 ::supress::suppress
 ::supressed::suppressed
+::scamed::scammed
 
 ;t
 ::tyope::type
