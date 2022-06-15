@@ -132,6 +132,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::obssesed::obsessed
 ::obssession::obsession
 ::overide::override
+::overal::overall
 
 ;p
 ::privilages::privileges
