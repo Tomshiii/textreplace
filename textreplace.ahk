@@ -164,6 +164,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;v
 ::varient::variant
+::vaccum::vacuum
 
 ;w
 ::withing::within
