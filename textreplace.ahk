@@ -116,10 +116,12 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;l
 ::literaelly::literally
+::luxery::luxury
 
 ;m
 ::manufactored::manufactured
 ::manufatoring::manufacturing
+::matress::mattress
 
 ;n
 ::neccessary::necessary
@@ -138,6 +140,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::privilages::privileges
 ::privilage::privilege
 ::preffered::preferred
+::preperation::preparation
 
 ;q
 
