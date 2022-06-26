@@ -72,6 +72,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;c
 ::compisition::composition
+::catestrophic::catastrophic
 
 ;d
 ::dependant::dependent
