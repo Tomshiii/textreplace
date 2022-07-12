@@ -131,6 +131,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;o
 ::occassions::occasions
 ::occurance::occurrence
+::occured::occurred
 ::obssessed::obsessed
 ::obssesed::obsessed
 ::obssession::obsession
