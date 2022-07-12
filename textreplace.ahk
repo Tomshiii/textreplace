@@ -4,12 +4,19 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
-#+e:: ;win + a opens notepad to edit this script
+#+e:: ;using ahk v2.0beta.6 I have set my default editing program to vscode, so using win + shift + e will open this script in vscode
 {
-	if WinExist("ahk_exe notepad.exe") ;if vscode exists it'll simply activate it, if it doesn't, it'll open it
-			WinActivate
-	else
-		Run 'notepad.exe ' A_ScriptDir "\textreplace.ahk"
+	if WinExist("ahk_exe Code.exe")
+		Edit()
+	else ;if you don't open vscode first, it will open the script in a blank workspace which is incredibly annoying
+		{
+			Run("C:\Program Files\Microsoft VS Code\Code.exe")
+			ToolTip("waiting for vscode to open")
+			WinWait("ahk_exe Code.exe")
+			ToolTip("")
+			sleep 1000
+			Edit()
+		}
 }
 /* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
@@ -123,6 +130,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::manufactored::manufactured
 ::manufatoring::manufacturing
 ::matress::mattress
+::manor::manner
+::maner::manner
 
 ;n
 ::neccessary::necessary
