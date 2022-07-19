@@ -152,6 +152,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::privilage::privilege
 ::preffered::preferred
 ::preperation::preparation
+::persuing::pursuing
 
 ;q
 
