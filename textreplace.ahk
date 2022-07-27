@@ -69,6 +69,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::acceloration::acceleration
 ::accidently::accidentally
 ::accessability::accessibility
+::accessable::accessible
 ::aquantences::acquaintances
 ::assosiate::associate
 ::aboration::aberration
@@ -187,6 +188,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;w
 ::withing::within
 ::writting::writing
+::wabble::wobble
 
 ;x
 
