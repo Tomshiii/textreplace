@@ -153,6 +153,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::preffered::preferred
 ::preperation::preparation
 ::persuing::pursuing
+::paramater::parameter
 
 ;q
 
