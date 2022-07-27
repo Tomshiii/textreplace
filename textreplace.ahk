@@ -77,6 +77,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;b
 ::balistic::ballistic
+::backig::backing
 
 ;c
 ::compisition::composition
