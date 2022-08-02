@@ -4,18 +4,19 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
-#+e:: ;using ahk v2.0beta.6 I have set my default editing program to vscode, so using win + shift + e will open this script in vscode
+#+e::
 {
 	if WinExist("ahk_exe Code.exe")
-		Edit()
+		Run("C:\Program Files\Microsoft VS Code\Code.exe " A_ScriptFullPath)
 	else ;if you don't open vscode first, it will open the script in a blank workspace which is incredibly annoying
 		{
-			Run("C:\Program Files\Microsoft VS Code\Code.exe")
+			Run("C:\Program Files\Microsoft VS Code\Code.exe") ;if vscode isn't open we want to open it first and wait for it to open, otherwise it'll open a new, clean instance of VSCode and your previous workspace will be gone
 			ToolTip("waiting for vscode to open")
 			WinWait("ahk_exe Code.exe")
 			ToolTip("")
 			sleep 1000
-			Edit()
+			;Edit()
+			Run("C:\Program Files\Microsoft VS Code\Code.exe " A_ScriptFullPath)
 		}
 }
 /* ;gets reloaded in the main script
