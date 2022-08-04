@@ -178,6 +178,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::tyope::type
 ::tomorroqw::tomorrow
 ::tedius::tedious
+::transfered::transferred
 
 ;u
 ::unneccessary::unnecessary
