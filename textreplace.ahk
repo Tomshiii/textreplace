@@ -132,6 +132,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;l
 ::literaelly::literally
+::literaly::literally
 ::luxery::luxury
 
 ;m
