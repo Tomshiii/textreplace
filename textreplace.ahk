@@ -80,6 +80,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;b
 ::balistic::ballistic
 ::backig::backing
+::blatently::blatantly
 
 ;c
 ::compisition::composition
