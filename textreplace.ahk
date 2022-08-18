@@ -171,6 +171,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::recieve::receive
 ::rejoyce::rejoice
 ::redundent::redundant
+::refferal::referral
 
 ;s
 ::structered::structured
