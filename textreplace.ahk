@@ -47,44 +47,55 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::pogg::poggies
 */
 
-
+/* F1::
+{
+	orig := A_Clipboard
+	A_Clipboard := ""
+	SendInput("^c")
+	ClipWait("2")
+	newval := sort(A_Clipboard, "C0")
+	SendInput("{BackSpace}")
+	Send("{Blind}{Text}" newval)
+	A_Clipboard := orig
+} */
 ;----------------------------------------
 ; TEXT CORRECTIONS
 ;----------------------------------------
 ::couldnt::couldn't
-::wouldnt::wouldn't
-::shouldnt::shouldn't
 ::didnt::didn't
 ::isnt::isn't
-::youre::you're
+::shouldnt::shouldn't
 ::wont::won't
+::wouldnt::wouldn't
+::youre::you're
 
 
 ;----------------------------------------
 ; AUTOCORRECT
 ;----------------------------------------
 ;a
-::arguement::argument
-::assignement::assignment
+::aboration::aberration
 ::accelorate::accelerate
 ::acceloration::acceleration
-::accidently::accidentally
 ::accessability::accessibility
 ::accessable::accessible
-::aquantences::acquaintances
-::assosiate::associate
-::aboration::aberration
+::accidently::accidentally
 ::accomidate::accommodate
+::adament::adamant
+::aquantences::acquaintances
+::arguement::argument
 ::asign::assign
+::assignement::assignment
+::assosiate::associate
 
 ;b
-::balistic::ballistic
 ::backig::backing
+::balistic::ballistic
 ::blatently::blatantly
 
 ;c
-::compisition::composition
 ::catestrophic::catastrophic
+::compisition::composition
 
 ;d
 ::dependant::dependent
@@ -106,8 +117,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::erganomic::ergonomic
 
 ;f
-::fore::for
 ::flabergasted::flabbergasted
+::fore::for
+::functuality::functionality
 
 ;g
 ::guage::gauge
@@ -115,16 +127,16 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;h
 ::happebn::happen
 ::happenb::happen
-::harrassing::harassing
 ::harrass::harass
+::harrassing::harassing
 
 ;i
-::insited::insisted
 ::impatiant::impatient
-::inherantly::inherently
 ::inherant::inherent
-::interlectual::intellectual
+::inherantly::inherently
+::insited::insisted
 ::interesed::interested
+::interlectual::intellectual
 
 ;j
 
@@ -136,70 +148,70 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::luxery::luxury
 
 ;m
+::maner::manner
+::manor::manner
 ::manufactored::manufactured
 ::manufatoring::manufacturing
 ::matress::mattress
-::manor::manner
-::maner::manner
 
 ;n
 ::neccessary::necessary
 ::nusense::nuisance
 
 ;o
+::obssesed::obsessed
+::obssessed::obsessed
+::obssession::obsession
 ::occassions::occasions
 ::occurance::occurrence
 ::occured::occurred
-::obssessed::obsessed
-::obssesed::obsessed
-::obssession::obsession
-::overide::override
 ::overal::overall
+::overide::override
 
 ;p
-::privilages::privileges
-::privilage::privilege
+::paramater::parameter
+::persuing::pursuing
 ::preffered::preferred
 ::preperation::preparation
-::persuing::pursuing
-::paramater::parameter
+::privilage::privilege
+::privilages::privileges
 
 ;q
 
 ;r
-::resoltion::resolution
+::reciepts::receipts
 ::recieve::receive
-::rejoyce::rejoice
 ::redundent::redundant
 ::refferal::referral
-::reciepts::receipts
+::rejoyce::rejoice
+::resoltion::resolution
 
 ;s
+::scamed::scammed
 ::structered::structured
+::sudo::pseudo
 ::supress::suppress
 ::supressed::suppressed
-::scamed::scammed
-::sudo::pseudo
 
 ;t
-::tyope::type
-::tomorroqw::tomorrow
 ::tedius::tedious
+::tomorroqw::tomorrow
 ::transfered::transferred
+::tyope::type
 
 ;u
-::unneccessary::unnecessary
-::unneccesary::unnecessary
 ::udpates::updates
+::unneccesary::unnecessary
+::unneccessary::unnecessary
 
 ;v
-::varient::variant
 ::vaccum::vacuum
+::varient::variant
 
 ;w
+::wabble::wobble
 ::withing::within
 ::writting::writing
-::wabble::wobble
 
 ;x
 
