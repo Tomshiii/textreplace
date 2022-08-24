@@ -92,6 +92,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::backig::backing
 ::balistic::ballistic
 ::blatently::blatantly
+::bototm::bottom
 
 ;c
 ::catestrophic::catastrophic
