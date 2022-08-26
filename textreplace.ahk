@@ -97,6 +97,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;c
 ::catestrophic::catastrophic
 ::compisition::composition
+::critisisms::criticism
 
 ;d
 ::dependant::dependent
@@ -133,6 +134,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;i
 ::impatiant::impatient
+::inevitibly::inevitably
 ::inherant::inherent
 ::inherantly::inherently
 ::insited::insisted
