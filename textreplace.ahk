@@ -210,6 +210,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;v
 ::vaccum::vacuum
 ::varient::variant
+::verticle::vertical
 
 ;w
 ::wabble::wobble
