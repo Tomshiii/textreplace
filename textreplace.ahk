@@ -140,6 +140,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::insited::insisted
 ::interesed::interested
 ::interlectual::intellectual
+::interperet::interpret
 
 ;j
 
