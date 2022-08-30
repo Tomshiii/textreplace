@@ -81,6 +81,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::accessable::accessible
 ::accidently::accidentally
 ::accomidate::accommodate
+::accomodate::accommodate
 ::adament::adamant
 ::aquantences::acquaintances
 ::arguement::argument
