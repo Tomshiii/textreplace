@@ -173,6 +173,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::occassions::occasions
 ::occurance::occurrence
 ::occured::occurred
+::ommit::omit
+::ommitted::omitted
 ::overal::overall
 ::overide::override
 
