@@ -103,6 +103,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;d
 ::dependant::dependent
+::deminishing::diminishing
 ::devistating::devastating
 ::dissapointed::disappointed
 ::disengenious::disingenuous
