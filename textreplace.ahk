@@ -88,6 +88,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::asign::assign
 ::assignement::assignment
 ::assosiate::associate
+::assosiated::associated
 
 ;b
 ::backig::backing
