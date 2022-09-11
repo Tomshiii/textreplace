@@ -93,6 +93,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;b
 ::backig::backing
 ::balistic::ballistic
+::barrelling::barreling
 ::blatently::blatantly
 ::bototm::bottom
 
@@ -100,6 +101,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::catestrophic::catastrophic
 ::compisition::composition
 ::contriversy::controversy
+::critisism::criticism
 ::critisisms::criticism
 
 ;d
