@@ -99,6 +99,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;c
 ::catestrophic::catastrophic
+::cooincidence::coincidence
 ::compisition::composition
 ::contriversy::controversy
 ::critisism::criticism
