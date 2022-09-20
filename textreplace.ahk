@@ -99,31 +99,32 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;c
 ::catestrophic::catastrophic
-::cooincidence::coincidence
 ::compisition::composition
 ::contriversy::controversy
+::cooincidence::coincidence
 ::critisism::criticism
 ::critisisms::criticism
 
 ;d
-::dependant::dependent
 ::deminishing::diminishing
-::devistating::devastating
-::dissapointed::disappointed
-::disengenious::disingenuous
-::desparately::desperately
+::dependant::dependent
 ::desparate::desperate
+::desparately::desperately
+::devistating::devastating
+::disengenious::disingenuous
+::dissapointed::disappointed
 
 ;e
-::everthing::everything
-::existant::existent
 ::effeciency::efficiency
-::extrodinaire::extraordinaire
 ::elequent::eloquent
-::exploaded::exploded
+::erganomic::ergonomic
+::everthing::everything
+::excersise::exercise
+::existant::existent
 ::explaination::explanation
 ::explanitory::explanatory
-::erganomic::ergonomic
+::exploaded::exploded
+::extrodinaire::extraordinaire
 
 ;f
 ::flabergasted::flabbergasted
@@ -175,6 +176,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::obssesed::obsessed
 ::obssessed::obsessed
 ::obssession::obsession
+::occassion::occasion
 ::occassionally::occasionally
 ::occassions::occasions
 ::occurance::occurrence
