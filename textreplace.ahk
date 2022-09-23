@@ -206,6 +206,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;s
 ::scamed::scammed
+::seratonin::serotonin
+::smouldering::smoldering
 ::structered::structured
 ::sudo::pseudo
 ::supress::suppress
