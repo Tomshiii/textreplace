@@ -170,6 +170,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;n
 ::neccessary::necessary
+::nuisense::nuisance
 ::nusense::nuisance
 
 ;o
