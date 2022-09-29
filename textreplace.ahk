@@ -96,6 +96,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::barrelling::barreling
 ::blatently::blatantly
 ::bototm::bottom
+::burdon::burden
 
 ;c
 ::catestrophic::catastrophic
@@ -107,6 +108,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;d
 ::deminishing::diminishing
+::demorilising::demoralising
 ::dependant::dependent
 ::desparate::desperate
 ::desparately::desperately
@@ -132,6 +134,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::functuality::functionality
 
 ;g
+::geenie::genie
 ::guage::gauge
 
 ;h
@@ -209,6 +212,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::scamed::scammed
 ::seratonin::serotonin
 ::smouldering::smoldering
+::soley::solely
+::soly::solely
 ::structered::structured
 ::sudo::pseudo
 ::supress::suppress
