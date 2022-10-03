@@ -131,6 +131,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;f
 ::flabergasted::flabbergasted
 ::fore::for
+::functino::function
 ::functuality::functionality
 
 ;g
@@ -172,6 +173,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::matress::mattress
 
 ;n
+::neccesary::necessary
 ::neccessary::necessary
 ::nuisense::nuisance
 ::nusense::nuisance
