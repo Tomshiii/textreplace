@@ -225,6 +225,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::tedius::tedious
 ::tomorroqw::tomorrow
 ::transfered::transferred
+::transparancy::transparency
 ::tyope::type
 
 ;u
