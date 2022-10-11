@@ -109,6 +109,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;d
 ::deminishing::diminishing
 ::demorilising::demoralising
+::deoderant::deodorant
 ::dependant::dependent
 ::desparate::desperate
 ::desparately::desperately
