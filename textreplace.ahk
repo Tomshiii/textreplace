@@ -75,6 +75,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;----------------------------------------
 ;a
 ::aboration::aberration
+::abboration::aberration
 ::accelorate::accelerate
 ::acceloration::acceleration
 ::accessability::accessibility
