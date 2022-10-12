@@ -139,6 +139,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;g
 ::geenie::genie
 ::guage::gauge
+::guantlet::gauntlet
 
 ;h
 ::happebn::happen
