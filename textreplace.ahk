@@ -74,8 +74,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ; AUTOCORRECT
 ;----------------------------------------
 ;a
-::aboration::aberration
 ::abboration::aberration
+::aboration::aberration
 ::accelorate::accelerate
 ::acceloration::acceleration
 ::accessability::accessibility
@@ -84,6 +84,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::accomidate::accommodate
 ::accomodate::accommodate
 ::adament::adamant
+::agressive::aggressive
 ::aquantences::acquaintances
 ::arguement::argument
 ::asign::assign
