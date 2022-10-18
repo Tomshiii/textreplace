@@ -96,6 +96,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::backig::backing
 ::balistic::ballistic
 ::barrelling::barreling
+::behemouth::behemoth
 ::blatently::blatantly
 ::bototm::bottom
 ::burdon::burden
@@ -210,6 +211,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;r
 ::reciepts::receipts
 ::recieve::receive
+::repetative::repetitive
 ::redundent::redundant
 ::refferal::referral
 ::rejoyce::rejoice
