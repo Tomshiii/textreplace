@@ -148,6 +148,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::happenb::happen
 ::harrass::harass
 ::harrassing::harassing
+::harrassment::harassment
 
 ;i
 ::impatiant::impatient
