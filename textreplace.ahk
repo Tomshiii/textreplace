@@ -159,6 +159,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::interesed::interested
 ::interlectual::intellectual
 ::interperet::interpret
+::interupted::interrupted
 ::irrelevency::irrelevancy
 ::irrelevent::irrelevant
 
