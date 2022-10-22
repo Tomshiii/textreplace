@@ -34,19 +34,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 					Run "C:\Users\Tom\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 			}
 } */
-;========================================
-; HOTSTRINGS
-;========================================
-;----------------------------------------
-; TWITCH EMOTES
-;----------------------------------------
-/*
-::omega::omegalul
-::oemg::omegalul
-::pepela::pepeLaugh
-::pogg::poggies
-*/
 
+;alphabetise stuff
 /* F1::
 {
 	orig := A_Clipboard
@@ -58,6 +47,19 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 	Send("{Blind}{Text}" newval)
 	A_Clipboard := orig
 } */
+
+;these are to help type stuff in vscode
+:o:toolc::
+{
+	Send("{Raw}tool.Cust(`"`")")
+	SendInput("{Left 2}")
+}
+:o:toolf::
+{
+	Send("{Raw}tool.Cust(`"`",, 1)")
+	SendInput("{Left 6}")
+}
+
 ;----------------------------------------
 ; TEXT CORRECTIONS
 ;----------------------------------------
