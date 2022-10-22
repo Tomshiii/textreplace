@@ -59,6 +59,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 	Send("{Raw}tool.Cust(`"`",, 1)")
 	SendInput("{Left 6}")
 }
+:o:toolw::tool.Wait()
 
 ;----------------------------------------
 ; TEXT CORRECTIONS
