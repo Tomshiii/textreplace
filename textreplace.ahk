@@ -121,6 +121,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::desparate::desperate
 ::desparately::desperately
 ::devistating::devastating
+::dichotamy::dichotomy
 ::disengenious::disingenuous
 ::dissapointed::disappointed
 
