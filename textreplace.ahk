@@ -231,6 +231,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::soley::solely
 ::soly::solely
 ::structered::structured
+::sucess::success
+::sucessful::successful
 ::sudo::pseudo
 ::supress::suppress
 ::supressed::suppressed
