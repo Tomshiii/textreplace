@@ -38,14 +38,15 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;alphabetise stuff
 /* F1::
 {
-	orig := A_Clipboard
+	orig := ClipboardAll()
 	A_Clipboard := ""
 	SendInput("^c")
 	ClipWait("2")
 	newval := sort(A_Clipboard, "C0")
+	A_Clipboard := newval
 	SendInput("{BackSpace}")
-	Send("{Blind}{Text}" newval)
-	A_Clipboard := orig
+	SendInput("{ctrl down}v{ctrl up}")
+	SetTimer(() => A_Clipboard := orig, -1000)
 } */
 
 ;these are to help type stuff in vscode
@@ -88,6 +89,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::accomodate::accommodate
 ::adament::adamant
 ::agressive::aggressive
+::amazin::amazing
 ::aquantences::acquaintances
 ::arguement::argument
 ::asign::assign
@@ -129,6 +131,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;e
 ::effeciency::efficiency
 ::elequent::eloquent
+::enitre::entire
 ::erganomic::ergonomic
 ::everthing::everything
 ::excersise::exercise
@@ -211,18 +214,20 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::persuing::pursuing
 ::preffered::preferred
 ::preperation::preparation
+::pretyty::pretty
 ::privilage::privilege
 ::privilages::privileges
 
 ;q
 
 ;r
+::realisttically::realistically
 ::reciepts::receipts
 ::recieve::receive
-::repetative::repetitive
 ::redundent::redundant
 ::refferal::referral
 ::rejoyce::rejoice
+::repetative::repetitive
 ::resoltion::resolution
 
 ;s
