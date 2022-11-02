@@ -112,6 +112,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::cooincidence::coincidence
 ::critisism::criticism
 ::critisisms::criticism
+::culperate::culprit
 
 ;d
 ::deminishing::diminishing
