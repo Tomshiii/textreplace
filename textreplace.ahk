@@ -115,6 +115,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;c
 ::catestrophic::catastrophic
+::committment::commitment
 ::compisition::composition
 ::comapre::compare
 ::contriversy::controversy
