@@ -62,6 +62,13 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 }
 :o:toolw::tool.Wait()
 
+:o:coords::coord.s()
+:o:coordw::coord.w()
+:o:coordc::coord.c()
+
+:o:blockon::block.On()
+:o:blockoff::block.Off()
+
 ;----------------------------------------
 ; TEXT CORRECTIONS
 ;----------------------------------------
