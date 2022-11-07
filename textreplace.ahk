@@ -84,7 +84,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;----------------------------------------
 ; AUTOCORRECT
 ;----------------------------------------
-;a
+;{ a
 ::abboration::aberration
 ::aboration::aberration
 ::accelorate::accelerate
@@ -103,8 +103,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::assignement::assignment
 ::assosiate::associate
 ::assosiated::associated
+;}
 
-;b
+;{ b
 ::backig::backing
 ::balistic::ballistic
 ::barrelling::barreling
@@ -112,8 +113,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::blatently::blatantly
 ::bototm::bottom
 ::burdon::burden
+;}
 
-;c
+;{ c
 ::catestrophic::catastrophic
 ::committment::commitment
 ::compisition::composition
@@ -123,8 +125,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::critisism::criticism
 ::critisisms::criticism
 ::culperate::culprit
+;}
 
-;d
+;{ d
 ::deminishing::diminishing
 ::demorilising::demoralising
 ::deoderant::deodorant
@@ -135,8 +138,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::dichotamy::dichotomy
 ::disengenious::disingenuous
 ::dissapointed::disappointed
+;}
 
-;e
+;{ e
 ::effeciency::efficiency
 ::elequent::eloquent
 ::enitre::entire
@@ -148,26 +152,30 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::explanitory::explanatory
 ::exploaded::exploded
 ::extrodinaire::extraordinaire
+;}
 
-;f
+;{ f
 ::flabergasted::flabbergasted
 ::fore::for
 ::functino::function
 ::functuality::functionality
+;}
 
-;g
+;{ g
 ::geenie::genie
 ::guage::gauge
 ::guantlet::gauntlet
+;}
 
-;h
+;{ h
 ::happebn::happen
 ::happenb::happen
 ::harrass::harass
 ::harrassing::harassing
 ::harrassment::harassment
+;}
 
-;i
+;{ i
 ::impatiant::impatient
 ::inevitibly::inevitably
 ::inherant::inherent
@@ -179,31 +187,37 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::interupted::interrupted
 ::irrelevency::irrelevancy
 ::irrelevent::irrelevant
+;}
 
-;j
+;{ j
+;}
 
-;k
+;{ k
+;}
 
-;l
+;{ 
 ::literaelly::literally
 ::literaly::literally
 ::luxery::luxury
+;}
 
-;m
+;{ m
 ::maner::manner
 ::manor::manner
 ::manufactored::manufactured
 ::manufatoring::manufacturing
 ::matress::mattress
+;}
 
-;n
+;{ n
 ::neccesary::necessary
 ::neccessary::necessary
 ::notible::notable
 ::nuisense::nuisance
 ::nusense::nuisance
+;}
 
-;o
+;{ o
 ::obssesed::obsessed
 ::obssessed::obsessed
 ::obssession::obsession
@@ -216,8 +230,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::ommitted::omitted
 ::overal::overall
 ::overide::override
+;}
 
-;p
+;{ p
 ::paramater::parameter
 ::persuing::pursuing
 ::preffered::preferred
@@ -225,10 +240,12 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::pretyty::pretty
 ::privilage::privilege
 ::privilages::privileges
+;}
 
-;q
+;{ q
+;}
 
-;r
+;{ r
 ::realisttically::realistically
 ::reciepts::receipts
 ::recieve::receive
@@ -237,8 +254,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::rejoyce::rejoice
 ::repetative::repetitive
 ::resoltion::resolution
+;}
 
-;s
+;{ s
 ::scamed::scammed
 ::seratonin::serotonin
 ::smouldering::smoldering
@@ -250,32 +268,41 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ::sudo::pseudo
 ::supress::suppress
 ::supressed::suppressed
+;}
 
-;t
+;{ t
 ::tedius::tedious
 ::tomorroqw::tomorrow
 ::transfered::transferred
 ::transparancy::transparency
 ::tyope::type
+;}
 
-;u
+;{ u
 ::udpates::updates
 ::unneccesary::unnecessary
 ::unneccessary::unnecessary
+;}
 
-;v
+;{ v
 ::vaccum::vacuum
 ::varient::variant
 ::verticle::vertical
+;}
 
-;w
+;{ w
 ::wabble::wobble
+::whenver::whenever
 ::withing::within
 ::writting::writing
+;}
 
-;x
+;{ x
+;}
 
-;y
+;{ y
 ::yoht::yacht
+;}
 
-;z
+;{ z
+;}
