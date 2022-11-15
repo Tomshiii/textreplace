@@ -282,6 +282,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;{ u
 ::udpates::updates
 ::unneccesary::unnecessary
+::unneccesarry::unnecessary
 ::unneccessary::unnecessary
 ;}
 
