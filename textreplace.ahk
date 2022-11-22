@@ -1,6 +1,8 @@
 #Hotstring
 #SingleInstance Force
-TraySetIcon(A_ScriptDir "\icon\text.ico")
+#Include <\Functions\ptf>
+TraySetIcon(ptf.Icons "\text.png")
+SetWorkingDir(ptf.textreplace)
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
