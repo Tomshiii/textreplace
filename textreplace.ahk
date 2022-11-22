@@ -87,6 +87,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;{ a
 ::abboration::aberration
 ::aboration::aberration
+::abbrasive::abrasive
 ::accelorate::accelerate
 ::acceloration::acceleration
 ::accessability::accessibility
@@ -195,7 +196,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;{ k
 ;}
 
-;{ 
+;{
 ::literaelly::literally
 ::literaly::literally
 ::luxery::luxury
@@ -289,6 +290,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;{ v
 ::vaccum::vacuum
 ::varient::variant
+::vandetta::vendetta
 ::verticle::vertical
 ;}
 
