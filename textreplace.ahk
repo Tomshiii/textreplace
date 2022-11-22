@@ -86,8 +86,8 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;----------------------------------------
 ;{ a
 ::abboration::aberration
-::aboration::aberration
 ::abbrasive::abrasive
+::aboration::aberration
 ::accelorate::accelerate
 ::acceloration::acceleration
 ::accessability::accessibility
@@ -118,9 +118,9 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;{ c
 ::catestrophic::catastrophic
+::comapre::compare
 ::committment::commitment
 ::compisition::composition
-::comapre::compare
 ::contriversy::controversy
 ::cooincidence::coincidence
 ::critisism::criticism
@@ -196,7 +196,7 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 ;{ k
 ;}
 
-;{
+;{ l
 ::literaelly::literally
 ::literaly::literally
 ::luxery::luxury
@@ -282,15 +282,15 @@ TraySetIcon(A_ScriptDir "\icon\text.ico")
 
 ;{ u
 ::udpates::updates
-::unneccesary::unnecessary
 ::unneccesarry::unnecessary
+::unneccesary::unnecessary
 ::unneccessary::unnecessary
 ;}
 
 ;{ v
 ::vaccum::vacuum
-::varient::variant
 ::vandetta::vendetta
+::varient::variant
 ::verticle::vertical
 ;}
 
