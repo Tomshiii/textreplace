@@ -1,6 +1,6 @@
 #Hotstring
 #SingleInstance Force
-#Include <\Functions\ptf>
+#Include <\Classes\ptf>
 TraySetIcon(ptf.Icons "\text.png")
 SetWorkingDir(ptf.textreplace)
 
