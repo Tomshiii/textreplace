@@ -1,6 +1,7 @@
 #Hotstring
 #SingleInstance Force
 #Include <\Classes\ptf>
+#Include <\Classes\tool>
 TraySetIcon(ptf.Icons "\text.png")
 SetWorkingDir(ptf.textreplace)
 
@@ -8,18 +9,23 @@ SetWorkingDir(ptf.textreplace)
 
 #+e::
 {
-	if WinExist("ahk_exe Code.exe")
-		Run("C:\Program Files\Microsoft VS Code\Code.exe " A_ScriptFullPath)
-	else ;if you don't open vscode first, it will open the script in a blank workspace which is incredibly annoying
+	if !WinExist("ahk_exe Code.exe") ;if you don't open vscode first, it will open the script in a blank workspace which is incredibly annoying
 		{
-			Run("C:\Program Files\Microsoft VS Code\Code.exe") ;if vscode isn't open we want to open it first and wait for it to open, otherwise it'll open a new, clean instance of VSCode and your previous workspace will be gone
+			Run(ptf.ProgFi "\Microsoft VS Code\Code.exe") ;if vscode isn't open we want to open it first and wait for it to open, otherwise it'll open a new, clean instance of VSCode and your previous workspace will be gone
 			ToolTip("waiting for vscode to open")
 			WinWait("ahk_exe Code.exe")
 			ToolTip("")
 			sleep 1000
 			;Edit()
-			Run("C:\Program Files\Microsoft VS Code\Code.exe " A_ScriptFullPath)
+			tool.Cust("opening " A_ScriptName)
+			Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
+			return
 		}
+	if InStr(WinGetTitle("A"), "textreplace.ahk") && WinGetProcessName("A") = "Code.exe"
+		tool.Cust(A_ScriptName " already open!")
+	else
+		tool.Cust("opening " A_ScriptName)
+	Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
 }
 /* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
@@ -120,6 +126,7 @@ SetWorkingDir(ptf.textreplace)
 
 ;{ c
 ::catestrophic::catastrophic
+::condensor::condenser
 ::comapre::compare
 ::committment::commitment
 ::compisition::composition
