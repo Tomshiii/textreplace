@@ -207,6 +207,7 @@ SetWorkingDir(ptf.textreplace)
 ::manufactored::manufactured
 ::manufatoring::manufacturing
 ::matress::mattress
+::mispell::misspell
 ;}
 
 ;{ n

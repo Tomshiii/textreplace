@@ -21,7 +21,7 @@ quickHotstring() { ;original code found here: https://lexikos.github.io/v2/docs/
     ClipContent := StrReplace(ClipContent, "`t", "``t")
     ClipContent := StrReplace(ClipContent, "`;", "```;")
     A_Clipboard := ClipboardOld  ; Restore previous contents of clipboard.
-    ShowInputBox("::::" ClipContent)
+    ShowInputBox("::" ClipContent "::")
 }
 
 ShowInputBox(DefaultValue)
@@ -31,7 +31,7 @@ ShowInputBox(DefaultValue)
     ; Show the input box, providing the default hotstring:
     IB := InputBox("
     (
-    Type your abreviation at the indicated insertion point. You can also edit the replacement text if you wish.
+    Add the correct spelling for the word at the end of the hotstring. You can also change the misspelt word if you wish.
 
     Example entry: ::btw`::by the way
     )", "New Hotstring",, DefaultValue)
@@ -64,7 +64,7 @@ ShowInputBox(DefaultValue)
     {
         WinWait "New Hotstring"
         ; Otherwise, move the input box's insertion point to where the user will type the abbreviation.
-        Send "{Home}{Right 2}"
+        ; Send "{Home}{Right 2}"
         SetTimer , 0
     }
 }

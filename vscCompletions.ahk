@@ -41,7 +41,7 @@ class Classes {
 }
 
 class Apps {
-    static appsLoc := base "<\Apps"
+    static appsLoc := base "<\Classes\Apps"
     static editorsLoc := this.appsLoc "\Editors"
     static __Item := Map(
         "discord",      this.appsLoc "\Discord>",
