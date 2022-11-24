@@ -1,7 +1,12 @@
-#Hotstring
 #SingleInstance Force
+
+; { \\ #Includes
 #Include <\Classes\ptf>
 #Include <\Classes\tool>
+#Include vscCompletions.ahk
+#Include quickHotstring.ahk
+; }
+
 TraySetIcon(ptf.Icons "\text.png")
 SetWorkingDir(ptf.textreplace)
 
@@ -27,6 +32,9 @@ SetWorkingDir(ptf.textreplace)
 		tool.Cust("opening " A_ScriptName)
 	Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
 }
+
+#+h::quickHotstring()
+
 /* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
 {
@@ -56,26 +64,6 @@ SetWorkingDir(ptf.textreplace)
 	SendInput("{ctrl down}v{ctrl up}")
 	SetTimer(() => A_Clipboard := orig, -1000)
 } */
-
-;these are to help type stuff in vscode
-:o:toolc::
-{
-	Send("{Raw}tool.Cust(`"`")")
-	SendInput("{Left 2}")
-}
-:o:toolf::
-{
-	Send("{Raw}tool.Cust(`"`",, 1)")
-	SendInput("{Left 6}")
-}
-:o:toolw::tool.Wait()
-
-:o:coords::coord.s()
-:o:coordw::coord.w()
-:o:coordc::coord.c()
-
-:o:blockon::block.On()
-:o:blockoff::block.Off()
 
 ;----------------------------------------
 ; TEXT CORRECTIONS
@@ -155,6 +143,8 @@ SetWorkingDir(ptf.textreplace)
 ::elequent::eloquent
 ::enitre::entire
 ::erganomic::ergonomic
+::espically::especially
+::esspecially::especially
 ::everthing::everything
 ::excersise::exercise
 ::existant::existent
