@@ -59,6 +59,7 @@ class Apps {
 	;{ // root
 	:ox:incwindows::Send(base "<\Windows>")
 	:ox:incguis::Send(base "<\GUIs>")
+	:ox:incgui::Send(base "<\GUIs>")
 	;}
 
 	;{ // classes
