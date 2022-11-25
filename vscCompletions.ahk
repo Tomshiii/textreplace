@@ -1,6 +1,10 @@
 ; This script is a collection of autocompletions to help type things relating to my repo faster within vscode (or any editor)
 ; This file does not need to be run individually and is #Included within textreplace.ahk
 
+; { \\ #Includes
+#Include <\Classes\ptf>
+; }
+
 #HotIf WinActive(browser.winTitle["vscode"])
 
 :o:toolc:: {
@@ -55,6 +59,12 @@ class Apps {
 }
 
 ;// inc
+	;{ //inc
+	:o:incinc::{
+		Send("{Raw}; { \\ #Includes`n`n; ") ;vscode autogenerates and ending brace
+		SendInput("{Up}")
+	}
+	;}
 
 	;{ // root
 	:ox:incwindows::Send(base "<\Windows>")
@@ -72,6 +82,7 @@ class Apps {
 	:ox:inctool::Send("" Classes["tool"])
 	:ox:incptf::Send(Classes["ptf"])
 	:ox:inccoord::Send(Classes["coord"])
+	:ox:inccoords::Send(Classes["coord"])
 	:ox:incswitchto::Send(Classes["switchTo"])
 	:ox:incmove::Send(Classes["Move"])
 	:ox:incwinget::Send(Classes["winget"])
@@ -91,6 +102,12 @@ class Apps {
         :ox:incphotoshop::Send(Apps["photoshop"])
         :ox:incae::Send(Apps["ae"])
         :ox:incresolve::Send(Apps["resolve"])
+	;}
+
+	;{ // funcs
+	funcs := base "<\Functions"
+	:ox:incdetect::Send(funcs "\detect>")
+	:ox:incerror::Send(funcs "\errorLog>")
 	;}
 
 ;\\

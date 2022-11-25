@@ -128,6 +128,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::deminishing::diminishing
 ::demorilising::demoralising
 ::deoderant::deodorant
+::dependancy::dependency
+::dependancies::dependencies
 ::dependant::dependent
 ::desparate::desperate
 ::desparately::desperately
