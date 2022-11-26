@@ -1,3 +1,5 @@
+This script requires some `lib` files that are contained within a [separate repo](https://github.com/Tomshiii/ahk/). You can check which files you need by looking at the top of each script and looking at any files contained within `<>`
+
 This script has a few purposes;
 
 - To help fix common typing mistakes I make & to autocorrect words I commonly misspell *(Ironically I just spelt that as `mispell`)*
