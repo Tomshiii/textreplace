@@ -3,7 +3,7 @@
 ; { \\ #Includes
 #Include <\Classes\ptf>
 #Include <\Classes\tool>
-#Include vscCompletions.ahk
+#Include *i vscCompletions.ahk
 #Include quickHotstring.ahk
 ; }
 
@@ -99,6 +99,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::assignement::assignment
 ::assosiate::associate
 ::assosiated::associated
+::axolotil::axolotl
 ;}
 
 ;{ b
