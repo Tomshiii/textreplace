@@ -1,3 +1,5 @@
+#+h::quickHotstring()
+
 quickHotstring() { ;original code found here: https://lexikos.github.io/v2/docs/commands/Hotstring.htm#Examples - minor adjustments by me to make it default to how I have my hotstrings
     ; Get the text currently selected. The clipboard is used instead of
     ; EditGetSelectedText because it works in a greater variety of editors

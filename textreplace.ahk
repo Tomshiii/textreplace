@@ -3,8 +3,9 @@
 ; { \\ #Includes
 #Include <\Classes\ptf>
 #Include <\Classes\tool>
+;The below are not necessary for this script to run
 #Include *i vscCompletions.ahk
-#Include quickHotstring.ahk
+#Include *i quickHotstring.ahk
 ; }
 
 TraySetIcon(ptf.Icons "\text.png")
@@ -32,22 +33,36 @@ TraySetIcon(ptf.Icons "\text.png")
 	Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
 }
 
-#+h::quickHotstring()
-
 /* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
 {
 	Reload
-	Sleep 1000 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
+	sleep 1000 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
 	;MsgBox "The script could not be reloaded. Would you like to open it for editing?",, 4
 	Result := MsgBox("The script could not be reloaded. Would you like to open it for editing?",, 4)
-		if Result = "Yes"
-			{
-				if WinExist("ahk_exe Code.exe")
-						WinActivate
-				else
-					Run "C:\Users\Tom\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-			}
+	if Result = "Yes"
+		{
+			if WinExist("ahk_exe Code.exe")
+				{
+					if InStr(WinGetTitle("A"), "textreplace.ahk") && WinGetProcessName("A") = "Code.exe"
+						tool.Cust(A_ScriptName " already open!")
+					else
+						tool.Cust("opening " A_ScriptName)
+					Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
+				}
+			else
+				{
+					Run(ptf.ProgFi "\Microsoft VS Code\Code.exe") ;if vscode isn't open we want to open it first and wait for it to open, otherwise it'll open a new, clean instance of VSCode and your previous workspace will be gone
+					ToolTip("waiting for vscode to open")
+					WinWait("ahk_exe Code.exe")
+					ToolTip("")
+					sleep 1000
+					;Edit()
+					tool.Cust("opening " A_ScriptName)
+					Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
+					return
+				}
+		}
 } */
 
 ;alphabetise stuff
