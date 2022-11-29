@@ -5,7 +5,7 @@
 #Include <\Classes\ptf>
 ; }
 
-#HotIf WinActive(editors.vscode.winTitle)
+#HotIf WinActive(browser.vscode.winTitle)
 
 :o:toolc:: {
 	Send("{Raw}tool.Cust(`"`")")
