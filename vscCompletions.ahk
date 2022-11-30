@@ -2,7 +2,7 @@
 ; This file does not need to be run individually and is #Included within textreplace.ahk
 
 ; { \\ #Includes
-#Include <\Classes\ptf>
+#Include <Classes\ptf>
 ; }
 
 #HotIf WinActive(browser.vscode.winTitle)
@@ -30,7 +30,7 @@
 base := "{Raw}#Include "
 
 class Classes {
-    static classLoc := base "<\Classes"
+    static classLoc := base "<Classes"
 	static __Item := Map(
 		"block",		this.classLoc "\block>",
 		"tool",			this.classLoc "\tool>",
@@ -45,7 +45,7 @@ class Classes {
 }
 
 class Apps {
-    static appsLoc := base "<\Classes\Apps"
+    static appsLoc := base "<Classes\Apps"
     static editorsLoc := this.appsLoc "\Editors"
     static __Item := Map(
         "discord",      this.appsLoc "\Discord>",
@@ -67,9 +67,9 @@ class Apps {
 	;}
 
 	;{ // root
-	:ox:incwindows::Send(base "<\Windows>")
-	:ox:incguis::Send(base "<\GUIs>")
-	:ox:incgui::Send(base "<\GUIs>")
+	:ox:incwindows::Send(base "<Windows>")
+	:ox:incguis::Send(base "<GUIs>")
+	:ox:incgui::Send(base "<GUIs>")
 	;}
 
 	;{ // classes
@@ -91,7 +91,7 @@ class Apps {
 	;} //
 
 	;{ // ksa
-	:ox:incksa::Send(base "<\KSA\Keyboard Shortcut Adjustments>")
+	:ox:incksa::Send(base "<KSA\Keyboard Shortcut Adjustments>")
 	;}
 
 	;{ // Apps
@@ -105,7 +105,7 @@ class Apps {
 	;}
 
 	;{ // funcs
-	funcs := base "<\Functions"
+	funcs := base "<Functions"
 	:ox:incdetect::Send(funcs "\detect>")
 	:ox:incerror::Send(funcs "\errorLog>")
 	;}

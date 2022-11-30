@@ -1,8 +1,8 @@
 #SingleInstance Force
 
 ; { \\ #Includes
-#Include <\Classes\ptf>
-#Include <\Classes\tool>
+#Include <Classes\ptf>
+#Include <Classes\tool>
 ;The below are not necessary for this script to run
 #Include *i vscCompletions.ahk
 #Include *i quickHotstring.ahk
@@ -123,6 +123,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::barrelling::barreling
 ::behemouth::behemoth
 ::blatently::blatantly
+::booleen::boolean
 ::bototm::bottom
 ::burdon::burden
 ;}
