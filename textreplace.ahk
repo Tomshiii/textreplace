@@ -126,6 +126,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::booleen::boolean
 ::bototm::bottom
 ::burdon::burden
+::buyt::but
 ;}
 
 ;{ c
@@ -139,6 +140,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::critisism::criticism
 ::critisisms::criticism
 ::culperate::culprit
+::curosor::cursor
 ;}
 
 ;{ d
