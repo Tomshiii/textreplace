@@ -331,3 +331,4 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ z
 ;}
+::technicion::technician

@@ -22,6 +22,7 @@ quickHotstring() { ;original code found here: https://lexikos.github.io/v2/docs/
     ClipContent := StrReplace(ClipContent, "`n", "``n")
     ClipContent := StrReplace(ClipContent, "`t", "``t")
     ClipContent := StrReplace(ClipContent, "`;", "```;")
+    ClipContent := Trim(ClipContent, " ")
     A_Clipboard := ClipboardOld  ; Restore previous contents of clipboard.
     ShowInputBox("::" ClipContent "::")
 }
@@ -36,7 +37,7 @@ ShowInputBox(DefaultValue)
     Add the correct spelling for the word at the end of the hotstring. You can also change the misspelt word if you wish.
 
     Example entry: ::btw`::by the way
-    )", "New Hotstring",, DefaultValue)
+    )", "New Hotstring",, Trim(DefaultValue))
     if IB.Result = "Cancel"  ; The user pressed Cancel.
         return
 
@@ -48,8 +49,8 @@ ShowInputBox(DefaultValue)
             MsgText := "You didn't provide a replacement"
         else
         {
-            Hotstring Entered.Label, Entered.Replacement  ; Enable the hotstring now.
-            FileAppend "`n" IB.Value, A_ScriptFullPath  ; Save the hotstring for later use.
+            ; Hotstring Entered.Label, Entered.Replacement  ; Enable the hotstring now.
+            FileAppend "`n" Trim(IB.Value, " "), A_ScriptFullPath  ; Save the hotstring for later use.
         }
     }
     else
