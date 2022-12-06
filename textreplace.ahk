@@ -235,6 +235,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::neccesary::necessary
 ::neccessary::necessary
 ::notible::notable
+::noticably::noticeably
 ::nuisense::nuisance
 ::nusense::nuisance
 ;}
@@ -294,6 +295,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;}
 
 ;{ t
+::technicion::technician
 ::tedius::tedious
 ::tomorroqw::tomorrow
 ::transfered::transferred
@@ -331,4 +333,3 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ z
 ;}
-::technicion::technician

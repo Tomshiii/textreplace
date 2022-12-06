@@ -106,8 +106,12 @@ class Apps {
 
 	;{ // funcs
 	funcs := base "<Functions"
+	:ox:incfunc::Send(funcs "\")
+	:ox:incfuncs::Send(funcs "\")
+
 	:ox:incdetect::Send(funcs "\detect>")
 	:ox:incerror::Send(funcs "\errorLog>")
+	:ox:incerrorlog::Send(funcs "\errorLog>")
 	;}
 
 ;\\
