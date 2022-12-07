@@ -110,6 +110,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::amazin::amazing
 ::aquantences::acquaintances
 ::arguement::argument
+::arguements::arguments
 ::asign::assign
 ::assignement::assignment
 ::assosiate::associate
