@@ -206,6 +206,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::interlectual::intellectual
 ::interperet::interpret
 ::interupted::interrupted
+::invoive::invoice
+::invoives::invoices
 ::irrelevency::irrelevancy
 ::irrelevent::irrelevant
 ;}

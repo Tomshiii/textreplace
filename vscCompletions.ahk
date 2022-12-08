@@ -31,7 +31,7 @@ base := "{Raw}#Include "
 
 class Classes {
     static classLoc := base "<Classes"
-	static __Item := Map(
+	static __Item   := Map(
 		"block",		this.classLoc "\block>",
 		"tool",			this.classLoc "\tool>",
 		"ptf",			this.classLoc "\ptf>",
@@ -45,15 +45,15 @@ class Classes {
 }
 
 class Apps {
-    static appsLoc := base "<Classes\Apps"
-    static editorsLoc := this.appsLoc "\Editors"
-    static __Item := Map(
+    static appsLoc    := base "<Classes\Apps"
+    static editorsLoc := base "<Classes\Editors"
+    static __Item     := Map(
         "discord",      this.appsLoc "\Discord>",
-        "vscode",      this.appsLoc "\VSCode>",
+        "vscode",       this.appsLoc "\VSCode>",
 
-        "premiere",      this.editorsLoc "\Premiere>",
-        "photoshop",      this.editorsLoc "\Photoshop>",
-        "ae",      this.editorsLoc "\After Effects>",
+        "premiere",     this.editorsLoc "\Premiere>",
+        "photoshop",    this.editorsLoc "\Photoshop>",
+        "ae",      		this.editorsLoc "\After Effects>",
         "resolve",      this.editorsLoc "\Resolve>",
     )
 }
@@ -99,7 +99,9 @@ class Apps {
 	:ox:incvscode::Send(Apps["vscode"])
         ;{ // Editors
         :ox:incpremiere::Send(Apps["premiere"])
+        :ox:incprem::Send(Apps["premiere"])
         :ox:incphotoshop::Send(Apps["photoshop"])
+        :ox:incps::Send(Apps["photoshop"])
         :ox:incae::Send(Apps["ae"])
         :ox:incresolve::Send(Apps["resolve"])
 	;}
