@@ -261,6 +261,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::paramater::parameter
 ::persuing::pursuing
 ::preffered::preferred
+::prefice::preface
 ::preperation::preparation
 ::pretyty::pretty
 ::privilage::privilege
@@ -322,6 +323,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::wabble::wobble
 ::whenver::whenever
 ::withing::within
+::worthwile::worthwhile
 ::writting::writing
 ;}
 
