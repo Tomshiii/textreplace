@@ -9,9 +9,10 @@ quickHotstring() { ;original code found here: https://lexikos.github.io/v2/docs/
     ClipboardOld := ClipboardAll()
     A_Clipboard := "" ; Must start off blank for detection to work.
     Send "^c"
-    if !ClipWait(1)  ; ClipWait timed out.
+    if !ClipWait(0.3)  ; ClipWait timed out.
     {
         A_Clipboard := ClipboardOld ; Restore previous contents of clipboard before returning.
+        ShowInputBox("::::", "{End}{Left 2}")
         return
     }
     ; Replace CRLF and/or LF with `n for use in a "send-raw" hotstring:
@@ -27,7 +28,7 @@ quickHotstring() { ;original code found here: https://lexikos.github.io/v2/docs/
     ShowInputBox("::" ClipContent "::")
 }
 
-ShowInputBox(DefaultValue)
+ShowInputBox(DefaultValue, inputs := "")
 {
     ; This will move the input box's caret to a more friendly position:
     SetTimer MoveCaret, 10
@@ -68,6 +69,8 @@ ShowInputBox(DefaultValue)
         WinWait "New Hotstring"
         ; Otherwise, move the input box's insertion point to where the user will type the abbreviation.
         ; Send "{Home}{Right 2}"
+        if inputs != ""
+            SendInput(inputs)
         SetTimer , 0
     }
 }

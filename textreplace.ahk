@@ -176,6 +176,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;}
 
 ;{ f
+::fasinating::fascinating
 ::flabergasted::flabbergasted
 ::fore::for
 ::functino::function
