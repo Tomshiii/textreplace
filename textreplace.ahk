@@ -155,6 +155,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::desparately::desperately
 ::devistating::devastating
 ::dichotamy::dichotomy
+::disablled::disabled
 ::disengenious::disingenuous
 ::dissapointed::disappointed
 ;}
@@ -203,6 +204,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::inherant::inherent
 ::inherantly::inherently
 ::insited::insisted
+::instantlly::instantly
 ::interesed::interested
 ::interlectual::intellectual
 ::interperet::interpret
