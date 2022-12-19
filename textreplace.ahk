@@ -328,6 +328,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;{ w
 ::wabble::wobble
 ::whenver::whenever
+::whinning::whining
 ::withing::within
 ::worthwile::worthwhile
 ::writting::writing
