@@ -234,6 +234,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::manufatoring::manufacturing
 ::matress::mattress
 ::mispell::misspell
+::moseied::moseyed
 ::moterbike::motorbike
 ;}
 
