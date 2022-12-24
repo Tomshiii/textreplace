@@ -299,6 +299,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::sucess::success
 ::sucessful::successful
 ::sudo::pseudo
+::superceed::supersede
+::superceeded::superseded
 ::supress::suppress
 ::supressed::suppressed
 ;}
