@@ -20,6 +20,7 @@
 :o:coords::coord.s()
 :o:coordw::coord.w()
 :o:coordc::coord.c()
+:o:coordclient::coord.client()
 
 :o:blockon::block.On()
 :o:blockoff::block.Off()
@@ -33,14 +34,17 @@ class Classes {
     static classLoc := base "<Classes"
 	static __Item   := Map(
 		"block",		this.classLoc "\block>",
-		"tool",			this.classLoc "\tool>",
-		"ptf",			this.classLoc "\ptf>",
+		"clip",			this.classLoc "\clip",
 		"coord",		this.classLoc "\coord>",
-		"switchTo",		this.classLoc "\switchTo>",
-		"Move",			this.classLoc "\Move>",
-		"winget",		this.classLoc "\winget>",
 		"dark",		    this.classLoc "\dark>",
+		"Move",			this.classLoc "\Move>",
+		"obj",			this.classLoc "\obj",
 		"pause",		this.classLoc "\pause>",
+		"ptf",			this.classLoc "\ptf>",
+		"switchTo",		this.classLoc "\switchTo>",
+		"timer",		this.classLoc "\timer",
+		"tool",			this.classLoc "\tool>",
+		"winget",		this.classLoc "\winget>",
 	)
 }
 
@@ -67,7 +71,6 @@ class Apps {
 	;}
 
 	;{ // root
-	:ox:incwindows::Send(base "<Windows>")
 	:ox:incguis::Send(base "<GUIs\")
 	:ox:incgui::Send(base "<GUIs\")
 	;}
@@ -78,16 +81,20 @@ class Apps {
 			Send(Classes[key] "`n")
 	}
 	;individual
+	:ox:incclass::Send(base "<Classes\")
 	:ox:incblock::Send(Classes["block"])
-	:ox:inctool::Send("" Classes["tool"])
-	:ox:incptf::Send(Classes["ptf"])
+	:ox:incclip::Send(Classes["clip"])
 	:ox:inccoord::Send(Classes["coord"])
 	:ox:inccoords::Send(Classes["coord"])
-	:ox:incswitchto::Send(Classes["switchTo"])
-	:ox:incmove::Send(Classes["Move"])
-	:ox:incwinget::Send(Classes["winget"])
 	:ox:incdark::Send(Classes["dark"])
+	:ox:incmove::Send(Classes["Move"])
+	:ox:incobj::Send(Classes["obj"])
 	:ox:incpause::Send(Classes["pause"])
+	:ox:incptf::Send(Classes["ptf"])
+	:ox:incswitchto::Send(Classes["switchTo"])
+	:ox:inctimer::Send(Classes["timer"])
+	:ox:inctool::Send(Classes["tool"])
+	:ox:incwinget::Send(Classes["winget"])
 	;} //
 
 	;{ // ksa
@@ -111,9 +118,13 @@ class Apps {
 	:ox:incfunc::Send(funcs "\")
 	:ox:incfuncs::Send(funcs "\")
 
+	:ox:incimg::Send(funcs "\checkImg>")
+	:ox:incdelay::Send(funcs "\delaySI>")
+	:ox:incdelaysi::Send(funcs "\delaySI>")
 	:ox:incdetect::Send(funcs "\detect>")
 	:ox:incerror::Send(funcs "\errorLog>")
 	:ox:incerrorlog::Send(funcs "\errorLog>")
+	:ox:incgethotkeys::Send(funcs "\getHotkeys>")
 	;}
 
 ;\\

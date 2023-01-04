@@ -98,6 +98,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::abboration::aberration
 ::abbrasive::abrasive
 ::aboration::aberration
+::absolutley::absolutely
 ::accelorate::accelerate
 ::acceloration::acceleration
 ::accessability::accessibility
@@ -255,6 +256,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::occassionally::occasionally
 ::occassions::occasions
 ::occurance::occurrence
+::occurances::occurrences
 ::occured::occurred
 ::occuring::occurring
 ::ommit::omit
