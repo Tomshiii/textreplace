@@ -298,6 +298,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::soley::solely
 ::soly::solely
 ::structered::structured
+::suceed::succeed
+::suceeded::succeeded
 ::sucess::success
 ::sucessful::successful
 ::sudo::pseudo
