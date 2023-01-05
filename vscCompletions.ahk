@@ -34,15 +34,15 @@ class Classes {
     static classLoc := base "<Classes"
 	static __Item   := Map(
 		"block",		this.classLoc "\block>",
-		"clip",			this.classLoc "\clip",
+		"clip",			this.classLoc "\clip>",
 		"coord",		this.classLoc "\coord>",
 		"dark",		    this.classLoc "\dark>",
 		"Move",			this.classLoc "\Move>",
-		"obj",			this.classLoc "\obj",
+		"obj",			this.classLoc "\obj>",
 		"pause",		this.classLoc "\pause>",
 		"ptf",			this.classLoc "\ptf>",
 		"switchTo",		this.classLoc "\switchTo>",
-		"timer",		this.classLoc "\timer",
+		"timer",		this.classLoc "\timer>",
 		"tool",			this.classLoc "\tool>",
 		"winget",		this.classLoc "\winget>",
 	)
