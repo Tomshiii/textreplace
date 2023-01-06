@@ -293,6 +293,7 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ s
 ::scamed::scammed
+::scedadle::skedaddle
 ::seratonin::serotonin
 ::smouldering::smoldering
 ::soley::solely
