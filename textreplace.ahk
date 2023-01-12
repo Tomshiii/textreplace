@@ -316,6 +316,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::tomorroqw::tomorrow
 ::transfered::transferred
 ::transparancy::transparency
+::trialing::trialling
 ::tyope::type
 ;}
 
