@@ -127,6 +127,15 @@ class Apps {
 	:ox:incgethotkeys::Send(funcs "\getHotkeys>")
 	;}
 
+	;{ // Other
+	Other := base "<Other"
+	:ox:incOther::Send(Other "\")
+	:ox:incOthers::Send(Other "\")
+
+	:ox:incprint::Send(Other "\print>")
+	:ox:incjson::Send(Other "\JSON>")
+	;}
+
 ;\\
 
 #HotIf ;reset back to normal
