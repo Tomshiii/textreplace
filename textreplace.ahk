@@ -116,6 +116,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::assignement::assignment
 ::assosiate::associate
 ::assosiated::associated
+::attatch::attach
 ::axolotil::axolotl
 ;}
 
@@ -257,6 +258,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::occassions::occasions
 ::occurance::occurrence
 ::occurances::occurrences
+::occurence::occurrence
+::occurences::occurrences
 ::occured::occurred
 ::occuring::occurring
 ::ommit::omit
