@@ -40,6 +40,7 @@ class Classes {
 		"Move",			this.classLoc "\Move>",
 		"obj",			this.classLoc "\obj>",
 		"pause",		this.classLoc "\pause>",
+		"settings",		this.classLoc "\settings>",
 		"ptf",			this.classLoc "\ptf>",
 		"switchTo",		this.classLoc "\switchTo>",
 		"timer",		this.classLoc "\timer>",
@@ -90,6 +91,9 @@ class Apps {
 	:ox:incmove::Send(Classes["Move"])
 	:ox:incobj::Send(Classes["obj"])
 	:ox:incpause::Send(Classes["pause"])
+	:ox:incset::Send(Classes["settings"])
+	:ox:incsett::Send(Classes["settings"])
+	:ox:incsettings::Send(Classes["settings"])
 	:ox:incptf::Send(Classes["ptf"])
 	:ox:incswitchto::Send(Classes["switchTo"])
 	:ox:inctimer::Send(Classes["timer"])
