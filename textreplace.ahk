@@ -312,6 +312,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::superceeded::superseded
 ::supress::suppress
 ::supressed::suppressed
+::syntatically::syntactically
 ;}
 
 ;{ t
