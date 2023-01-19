@@ -160,6 +160,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::disablled::disabled
 ::disengenious::disingenuous
 ::dissapointed::disappointed
+::downlaod::download
 ;}
 
 ;{ e
