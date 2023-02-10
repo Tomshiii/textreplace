@@ -279,6 +279,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::pretyty::pretty
 ::privilage::privilege
 ::privilages::privileges
+::proccess::process
 ;}
 
 ;{ q

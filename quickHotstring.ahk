@@ -61,7 +61,7 @@ ShowInputBox(DefaultValue, inputs := "")
     {
         Result := MsgBox(MsgText ". Would you like to try again?",, 4)
         if Result = "Yes"
-            ShowInputBox(DefaultValue)
+            quickHotstring()
     }
 
     MoveCaret()
