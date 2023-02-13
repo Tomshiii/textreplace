@@ -226,6 +226,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;}
 
 ;{ l
+::litereally::literally
 ::literaelly::literally
 ::literaly::literally
 ::luxery::luxury

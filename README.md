@@ -1,4 +1,4 @@
-This script requires some `lib` files that are contained within a [separate repo](https://github.com/Tomshiii/ahk/). You can check which files you need by looking at the top of each script and looking at any files contained within `<>`
+> ###### This script requires some `lib` files that are contained within a [separate repo](https://github.com/Tomshiii/ahk/). You can check which files you need by looking at the top of each script and looking at any files contained within `<>`
 
 This script has a few purposes;
 
@@ -12,4 +12,4 @@ This script has a few purposes;
 
 ![classes](https://user-images.githubusercontent.com/53557479/203871810-48666a32-f9b3-4f4d-a05a-bdc823d48c09.gif)
 
-**note: `textreplace.ahk` is the only script that you need to run, the other scripts get `#Included` within `textreplace.ahk`*
+> **note: `textreplace.ahk` is the only script that you need to run, the other scripts get optionally `#Included` within `textreplace.ahk`*
