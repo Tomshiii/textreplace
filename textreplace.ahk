@@ -149,6 +149,7 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ d
 ::deminishing::diminishing
+::demonstated::demonstrated
 ::demorilising::demoralising
 ::deoderant::deodorant
 ::dependancy::dependency
