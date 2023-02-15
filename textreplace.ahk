@@ -125,6 +125,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::backig::backing
 ::balistic::ballistic
 ::barrelling::barreling
+::begining::beginning
 ::behemouth::behemoth
 ::blatently::blatantly
 ::booleen::boolean
