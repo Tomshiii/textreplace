@@ -304,6 +304,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::scamed::scammed
 ::scedadle::skedaddle
 ::seratonin::serotonin
+::sharable::shareable
 ::smouldering::smoldering
 ::soley::solely
 ::soly::solely
