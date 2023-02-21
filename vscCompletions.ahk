@@ -3,6 +3,7 @@
 
 ; { \\ #Includes
 #Include <Classes\ptf>
+#Include <Classes\Mip>
 ; }
 
 #HotIf WinActive(browser.vscode.winTitle)
@@ -32,7 +33,7 @@ base := "{Raw}#Include "
 
 class Classes {
     static classLoc := base "<Classes"
-	static __Item   := Map(
+	static __Item   := Mip(
 		"block",		this.classLoc "\block>",
 		"clip",			this.classLoc "\clip>",
 		"coord",		this.classLoc "\coord>",
@@ -46,6 +47,7 @@ class Classes {
 		"timer",		this.classLoc "\timer>",
 		"tool",			this.classLoc "\tool>",
 		"winget",		this.classLoc "\winget>",
+		"mip",		this.classLoc "\Mip>",
 	)
 }
 
@@ -99,6 +101,7 @@ class Apps {
 	:ox:inctimer::Send(Classes["timer"])
 	:ox:inctool::Send(Classes["tool"])
 	:ox:incwinget::Send(Classes["winget"])
+	:ox:incmip::Send(Classes["mip"])
 	;} //
 
 	;{ // ksa
