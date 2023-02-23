@@ -118,6 +118,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::assosiate::associate
 ::assosiated::associated
 ::attatch::attach
+::attatched::attached
 ::axolotil::axolotl
 ;}
 
@@ -169,6 +170,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;{ e
 ::effeciency::efficiency
 ::elequent::eloquent
+::encounted::encountered
 ::enitre::entire
 ::erganomic::ergonomic
 ::espically::especially
