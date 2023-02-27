@@ -295,6 +295,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::reciepts::receipts
 ::recieve::receive
 ::redundent::redundant
+::referal::referral
 ::refferal::referral
 ::rejoyce::rejoice
 ::repetative::repetitive
