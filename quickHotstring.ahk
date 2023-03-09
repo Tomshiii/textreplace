@@ -66,7 +66,7 @@ ShowInputBox(DefaultValue, inputs := "")
 
     MoveCaret()
     {
-        WinWait "New Hotstring"
+        WinWait("New Hotstring",, 2)
         ; Otherwise, move the input box's insertion point to where the user will type the abbreviation.
         ; Send "{Home}{Right 2}"
         if inputs != ""

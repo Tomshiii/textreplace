@@ -194,6 +194,7 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ g
 ::geenie::genie
+::greatful::grateful
 ::guage::gauge
 ::guantlet::gauntlet
 ;}
@@ -207,6 +208,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;}
 
 ;{ i
+::immensly::immensely
 ::impatiant::impatient
 ::implomentation::implementation
 ::inevitibly::inevitably
