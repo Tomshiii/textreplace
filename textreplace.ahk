@@ -274,6 +274,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::occuring::occurring
 ::ommit::omit
 ::ommitted::omitted
+::outragiously::outrageously
+::outragously::outrageously
 ::overal::overall
 ::overide::override
 ;}
