@@ -98,6 +98,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;{ a
 ::abboration::aberration
 ::abbrasive::abrasive
+::abhorent::abhorrent
 ::aboration::aberration
 ::absolutley::absolutely
 ::accelorate::accelerate
