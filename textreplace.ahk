@@ -138,6 +138,7 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ c
 ::catestrophic::catastrophic
+::centered::centred
 ::condensor::condenser
 ::comapre::compare
 ::committment::commitment
@@ -212,6 +213,8 @@ TraySetIcon(ptf.Icons "\text.png")
 ::immensly::immensely
 ::impatiant::impatient
 ::implomentation::implementation
+::incrimentally::incrementally
+::incrementially::incrementally
 ::inevitibly::inevitably
 ::inherant::inherent
 ::inherantly::inherently
@@ -256,6 +259,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::neccessary::necessary
 ::notible::notable
 ::noticably::noticeably
+::nepatism::nepotism
 ::nuisense::nuisance
 ::nusense::nuisance
 ;}
@@ -291,6 +295,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::privilage::privilege
 ::privilages::privileges
 ::proccess::process
+::propeganda::propaganda
 ;}
 
 ;{ q
