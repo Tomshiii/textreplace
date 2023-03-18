@@ -258,10 +258,12 @@ TraySetIcon(ptf.Icons "\text.png")
 ::neccesary::necessary
 ::neccessary::necessary
 ::notible::notable
+::noticable::noticeable
 ::noticably::noticeably
 ::nepatism::nepotism
 ::nuisense::nuisance
 ::nusense::nuisance
+::nuisence::nuisance
 ;}
 
 ;{ o
