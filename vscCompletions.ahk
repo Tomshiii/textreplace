@@ -12,6 +12,10 @@
 	Send("{Raw}tool.Cust(`"`")")
 	SendInput("{Left 2}")
 }
+:o:toolt:: {
+	Send("{Raw}tool.tray({text: `"`"})")
+	SendInput("{Left 3}")
+}
 :o:toolf:: {
 	Send("{Raw}tool.Cust(`"`",, 1)")
 	SendInput("{Left 6}")
