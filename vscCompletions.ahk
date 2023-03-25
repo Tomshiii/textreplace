@@ -16,10 +16,6 @@
 	Send("{Raw}tool.tray({text: `"`"})")
 	SendInput("{Left 3}")
 }
-:o:toolf:: {
-	Send("{Raw}tool.Cust(`"`",, 1)")
-	SendInput("{Left 6}")
-}
 :o:toolw::tool.Wait()
 
 :o:coords::coord.s()
