@@ -111,6 +111,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::adament::adamant
 ::agressive::aggressive
 ::amazin::amazing
+::applicible::applicable
 ::aquantences::acquaintances
 ::arguement::argument
 ::arguements::arguments
@@ -324,6 +325,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::smouldering::smoldering
 ::soley::solely
 ::soly::solely
+::spliting::splitting
 ::structered::structured
 ::suceed::succeed
 ::suceeded::succeeded
