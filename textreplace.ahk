@@ -263,6 +263,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::noticable::noticeable
 ::noticably::noticeably
 ::nepatism::nepotism
+::neurodivergant::neurodivergent
 ::nuisense::nuisance
 ::nusense::nuisance
 ::nuisence::nuisance
