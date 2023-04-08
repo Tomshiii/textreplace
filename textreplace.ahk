@@ -298,6 +298,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::prefice::preface
 ::preperation::preparation
 ::pretyty::pretty
+::prioritiesed::prioritised
 ::privilage::privilege
 ::privilages::privileges
 ::proccess::process
