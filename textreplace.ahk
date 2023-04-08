@@ -223,6 +223,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::insited::insisted
 ::instantlly::instantly
 ::interesed::interested
+::interprated::interpreted
 ::interlectual::intellectual
 ::interperet::interpret
 ::interupted::interrupted
