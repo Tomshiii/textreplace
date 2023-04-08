@@ -306,6 +306,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ;}
 
 ;{ q
+::quiry::query
 ;}
 
 ;{ r
