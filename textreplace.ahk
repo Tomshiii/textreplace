@@ -147,6 +147,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::compisition::composition
 ::contriversy::controversy
 ::cooincidence::coincidence
+::coporation::corporation
 ::critisism::criticism
 ::critisisms::criticism
 ::culperate::culprit
@@ -165,6 +166,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::desparately::desperately
 ::devistating::devastating
 ::dichotamy::dichotomy
+::digestable::digestible
 ::disablled::disabled
 ::disengenious::disingenuous
 ::dissapointed::disappointed
@@ -289,6 +291,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::outragously::outrageously
 ::overal::overall
 ::overide::override
+::overzelous::overzealous
 ;}
 
 ;{ p
@@ -303,6 +306,7 @@ TraySetIcon(ptf.Icons "\text.png")
 ::privilages::privileges
 ::proccess::process
 ::propeganda::propaganda
+::psudo::pseudo
 ;}
 
 ;{ q
@@ -358,6 +362,7 @@ TraySetIcon(ptf.Icons "\text.png")
 
 ;{ u
 ::udpates::updates
+::uninpeaded::unimpeded
 ::unneccesarily::unnecessarily
 ::unneccesarry::unnecessary
 ::unneccesary::unnecessary
