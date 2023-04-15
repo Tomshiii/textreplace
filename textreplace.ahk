@@ -4,12 +4,14 @@
 ; { \\ #Includes
 #Include <Classes\ptf>
 #Include <Classes\tool>
+#Include <Functions\trayShortcut>
 ;The below are not necessary for this script to run
 #Include *i vscCompletions.ahk
 #Include *i quickHotstring.ahk
 ; }
 
 TraySetIcon(ptf.Icons "\text.png")
+startupTray()
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
