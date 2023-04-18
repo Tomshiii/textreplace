@@ -244,6 +244,7 @@ startupTray()
 ;}
 
 ;{ l
+::likelyhood::likelihood
 ::litereally::literally
 ::literaelly::literally
 ::literaly::literally
@@ -287,7 +288,9 @@ startupTray()
 ::occurences::occurrences
 ::occured::occurred
 ::occuring::occurring
+::omited::omitted
 ::ommit::omit
+::ommited::omitted
 ::ommitted::omitted
 ::outragiously::outrageously
 ::outragously::outrageously
@@ -326,6 +329,8 @@ startupTray()
 ::repetative::repetitive
 ::repoduce::reproduce
 ::resoltion::resolution
+::resteraunts::restaurants
+::restraunts::restaurants
 ;}
 
 ;{ s
