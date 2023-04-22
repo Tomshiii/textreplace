@@ -104,6 +104,7 @@ startupTray()
 ::aboration::aberration
 ::absolutley::absolutely
 ::accelorate::accelerate
+::acceloratated::accelerated
 ::acceloration::acceleration
 ::accessability::accessibility
 ::accessable::accessible
