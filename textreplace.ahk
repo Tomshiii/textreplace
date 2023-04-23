@@ -337,6 +337,7 @@ startupTray()
 ;{ s
 ::scamed::scammed
 ::scedadle::skedaddle
+::sentimant::sentiment
 ::seratonin::serotonin
 ::sharable::shareable
 ::smouldering::smoldering
