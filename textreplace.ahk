@@ -310,6 +310,7 @@ startupTray()
 ::prioritiesed::prioritised
 ::privilage::privilege
 ::privilages::privileges
+::procces::process
 ::proccess::process
 ::propeganda::propaganda
 ::psudo::pseudo
