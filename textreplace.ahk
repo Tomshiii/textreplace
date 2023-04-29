@@ -103,8 +103,8 @@ startupTray()
 ::abhorent::abhorrent
 ::aboration::aberration
 ::absolutley::absolutely
-::accelorate::accelerate
 ::acceloratated::accelerated
+::accelorate::accelerate
 ::acceloration::acceleration
 ::accessability::accessibility
 ::accessable::accessible
@@ -144,10 +144,10 @@ startupTray()
 ;{ c
 ::catestrophic::catastrophic
 ::centered::centred
-::condensor::condenser
 ::comapre::compare
 ::committment::commitment
 ::compisition::composition
+::condensor::condenser
 ::contriversy::controversy
 ::cooincidence::coincidence
 ::coporation::corporation
@@ -162,8 +162,8 @@ startupTray()
 ::demonstated::demonstrated
 ::demorilising::demoralising
 ::deoderant::deodorant
-::dependancy::dependency
 ::dependancies::dependencies
+::dependancy::dependency
 ::dependant::dependent
 ::desparate::desperate
 ::desparately::desperately
@@ -220,17 +220,17 @@ startupTray()
 ::immensly::immensely
 ::impatiant::impatient
 ::implomentation::implementation
-::incrimentally::incrementally
 ::incrementially::incrementally
+::incrimentally::incrementally
 ::inevitibly::inevitably
 ::inherant::inherent
 ::inherantly::inherently
 ::insited::insisted
 ::instantlly::instantly
 ::interesed::interested
-::interprated::interpreted
 ::interlectual::intellectual
 ::interperet::interpret
+::interprated::interpreted
 ::interupted::interrupted
 ::invoive::invoice
 ::invoives::invoices
@@ -246,9 +246,9 @@ startupTray()
 
 ;{ l
 ::likelyhood::likelihood
-::litereally::literally
 ::literaelly::literally
 ::literaly::literally
+::litereally::literally
 ::luxery::luxury
 ;}
 
@@ -266,14 +266,14 @@ startupTray()
 ;{ n
 ::neccesary::necessary
 ::neccessary::necessary
+::nepatism::nepotism
+::neurodivergant::neurodivergent
 ::notible::notable
 ::noticable::noticeable
 ::noticably::noticeably
-::nepatism::nepotism
-::neurodivergant::neurodivergent
+::nuisence::nuisance
 ::nuisense::nuisance
 ::nusense::nuisance
-::nuisence::nuisance
 ;}
 
 ;{ o
@@ -285,9 +285,9 @@ startupTray()
 ::occassions::occasions
 ::occurance::occurrence
 ::occurances::occurrences
+::occured::occurred
 ::occurence::occurrence
 ::occurences::occurrences
-::occured::occurred
 ::occuring::occurring
 ::omited::omitted
 ::ommit::omit
@@ -341,6 +341,7 @@ startupTray()
 ::sentimant::sentiment
 ::seratonin::serotonin
 ::sharable::shareable
+::shortning::shortening
 ::smouldering::smoldering
 ::soley::solely
 ::soly::solely
