@@ -36,18 +36,23 @@ class Classes {
 	static __Item   := Mip(
 		"block",		this.classLoc "\block>",
 		"clip",			this.classLoc "\clip>",
+		"cmd",			this.classLoc "\cmd>",
 		"coord",		this.classLoc "\coord>",
 		"dark",		    this.classLoc "\dark>",
+		"ffmpeg",		    this.classLoc "\ffmpeg>",
+		"keys",		    this.classLoc "\keys>",
+		"mip",		this.classLoc "\Mip>",
 		"Move",			this.classLoc "\Move>",
 		"obj",			this.classLoc "\obj>",
 		"pause",		this.classLoc "\pause>",
-		"settings",		this.classLoc "\settings>",
 		"ptf",			this.classLoc "\ptf>",
+		"settings",		this.classLoc "\settings>",
 		"switchTo",		this.classLoc "\switchTo>",
 		"timer",		this.classLoc "\timer>",
 		"tool",			this.classLoc "\tool>",
 		"winget",		this.classLoc "\winget>",
-		"mip",		this.classLoc "\Mip>",
+		"wm",		this.classLoc "\wm>",
+		"ytdlp",		this.classLoc "\ytdlp>",
 	)
 }
 
@@ -87,21 +92,26 @@ class Apps {
 	:ox:incclass::Send(base "<Classes\")
 	:ox:incblock::Send(Classes["block"])
 	:ox:incclip::Send(Classes["clip"])
+	:ox:inccmd::Send(Classes["cmd"])
 	:ox:inccoord::Send(Classes["coord"])
 	:ox:inccoords::Send(Classes["coord"])
 	:ox:incdark::Send(Classes["dark"])
+	:ox:incffmpeg::Send(Classes["ffmpeg"])
+	:ox:inckeys::Send(Classes["keys"])
+	:ox:incmip::Send(Classes["mip"])
 	:ox:incmove::Send(Classes["Move"])
 	:ox:incobj::Send(Classes["obj"])
 	:ox:incpause::Send(Classes["pause"])
+	:ox:incptf::Send(Classes["ptf"])
 	:ox:incset::Send(Classes["settings"])
 	:ox:incsett::Send(Classes["settings"])
 	:ox:incsettings::Send(Classes["settings"])
-	:ox:incptf::Send(Classes["ptf"])
 	:ox:incswitchto::Send(Classes["switchTo"])
 	:ox:inctimer::Send(Classes["timer"])
 	:ox:inctool::Send(Classes["tool"])
 	:ox:incwinget::Send(Classes["winget"])
-	:ox:incmip::Send(Classes["mip"])
+	:ox:incwm::Send(Classes["wm"])
+	:ox:incytdlp::Send(Classes["ytdlp"])
 	;} //
 
 	;{ // ksa
@@ -144,5 +154,3 @@ class Apps {
 	;}
 
 ;\\
-
-#HotIf ;reset back to normal

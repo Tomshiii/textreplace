@@ -132,6 +132,7 @@ startupTray()
 ::backig::backing
 ::balistic::ballistic
 ::barrelling::barreling
+::becuase::because
 ::begining::beginning
 ::behemouth::behemoth
 ::blatently::blatantly
