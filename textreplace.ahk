@@ -114,6 +114,7 @@ startupTray()
 ::adament::adamant
 ::agressive::aggressive
 ::amazin::amazing
+::antena::antenna
 ::applicible::applicable
 ::aquantences::acquaintances
 ::aquired::acquired

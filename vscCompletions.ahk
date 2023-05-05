@@ -154,3 +154,6 @@ class Apps {
 	;}
 
 ;\\
+
+;// reset hotif
+#HotIf
