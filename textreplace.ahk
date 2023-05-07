@@ -136,6 +136,7 @@ startupTray()
 ::becuase::because
 ::begining::beginning
 ::behemouth::behemoth
+::behing::behind
 ::blatently::blatantly
 ::booleen::boolean
 ::bototm::bottom
