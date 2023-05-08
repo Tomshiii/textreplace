@@ -231,6 +231,7 @@ startupTray()
 ::insited::insisted
 ::instantlly::instantly
 ::interesed::interested
+::interfer::interfere
 ::interlectual::intellectual
 ::interperet::interpret
 ::interprated::interpreted
