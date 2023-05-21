@@ -8,6 +8,7 @@
 ;The below are not necessary for this script to run
 #Include *i vscCompletions.ahk
 #Include *i quickHotstring.ahk
+#Include *i personalHotstrings.ahk
 ; }
 
 TraySetIcon(ptf.Icons "\text.png")
