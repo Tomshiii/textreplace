@@ -175,6 +175,7 @@ startupTray()
 ::dichotamy::dichotomy
 ::digestable::digestible
 ::disablled::disabled
+::disapear::disappear
 ::disengenious::disingenuous
 ::dissapointed::disappointed
 ::downlaod::download
