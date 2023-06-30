@@ -53,6 +53,7 @@ class Classes {
 		"winget",		this.classLoc "\winget>",
 		"wm",		this.classLoc "\wm>",
 		"ytdlp",		this.classLoc "\ytdlp>",
+		"errorLog",		this.classLoc "\errorLog>",
 	)
 }
 
@@ -112,6 +113,8 @@ class Apps {
 	:ox:incwinget::Send(Classes["winget"])
 	:ox:incwm::Send(Classes["wm"])
 	:ox:incytdlp::Send(Classes["ytdlp"])
+	:ox:incerror::Send(Classes["errorLog"])
+	:ox:incerrorlog::Send(Classes["errorLog"])
 	;} //
 
 	;{ // ksa
@@ -139,8 +142,6 @@ class Apps {
 	:ox:incdelay::Send(funcs "\delaySI>")
 	:ox:incdelaysi::Send(funcs "\delaySI>")
 	:ox:incdetect::Send(funcs "\detect>")
-	:ox:incerror::Send(funcs "\errorLog>")
-	:ox:incerrorlog::Send(funcs "\errorLog>")
 	:ox:incgethotkeys::Send(funcs "\getHotkeys>")
 	;}
 
