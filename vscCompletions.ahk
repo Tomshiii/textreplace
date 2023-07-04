@@ -39,9 +39,9 @@ class Classes {
 		"cmd",			this.classLoc "\cmd>",
 		"coord",		this.classLoc "\coord>",
 		"dark",		    this.classLoc "\dark>",
-		"ffmpeg",		    this.classLoc "\ffmpeg>",
+		"ffmpeg",		this.classLoc "\ffmpeg>",
 		"keys",		    this.classLoc "\keys>",
-		"mip",		this.classLoc "\Mip>",
+		"mip",		    this.classLoc "\Mip>",
 		"Move",			this.classLoc "\Move>",
 		"obj",			this.classLoc "\obj>",
 		"pause",		this.classLoc "\pause>",
@@ -51,9 +51,10 @@ class Classes {
 		"timer",		this.classLoc "\timer>",
 		"tool",			this.classLoc "\tool>",
 		"winget",		this.classLoc "\winget>",
-		"wm",		this.classLoc "\wm>",
+		"wm",		    this.classLoc "\wm>",
 		"ytdlp",		this.classLoc "\ytdlp>",
 		"errorLog",		this.classLoc "\errorLog>",
+		"log",		    this.classLoc "\log>",
 	)
 }
 
@@ -115,6 +116,8 @@ class Apps {
 	:ox:incytdlp::Send(Classes["ytdlp"])
 	:ox:incerror::Send(Classes["errorLog"])
 	:ox:incerrorlog::Send(Classes["errorLog"])
+	:ox:inclog::Send(Classes["log"])
+	:ox:inclogs::Send(Classes["log"])
 	;} //
 
 	;{ // ksa
