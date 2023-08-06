@@ -12,13 +12,13 @@
 	Send("{Raw}tool.Cust(`"`")")
 	SendInput("{Left 2}")
 }
-:o:toolt:: {
+:*:toolt`s:: {
 	Send("{Raw}tool.tray({text: `"`"})")
 	SendInput("{Left 3}")
 }
 :o:toolw::tool.Wait()
 
-:o:coords::coord.s()
+:*:coords`t::coord.s()
 :o:coordw::coord.w()
 :o:coordc::coord.c()
 :o:coordclient::coord.client()
