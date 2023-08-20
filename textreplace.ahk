@@ -75,7 +75,7 @@ startupTray()
 	orig := ClipboardAll()
 	A_Clipboard := ""
 	SendInput("^c")
-	ClipWait("2")
+	ClipWait(2)
 	newval := sort(A_Clipboard, "C0")
 	A_Clipboard := newval
 	SendInput("{BackSpace}")
@@ -113,6 +113,7 @@ startupTray()
 ::accomidate::accommodate
 ::accomodate::accommodate
 ::adament::adamant
+::admittidely::admittedly
 ::agressive::aggressive
 ::amazin::amazing
 ::antena::antenna
@@ -147,6 +148,7 @@ startupTray()
 
 ;{ c
 ::catestrophic::catastrophic
+::caviate::caveat
 ::centered::centred
 ::comapre::compare
 ::committment::commitment
@@ -186,6 +188,7 @@ startupTray()
 ::elequent::eloquent
 ::encounted::encountered
 ::enitre::entire
+::enthusiest::enthusiast
 ::erganomic::ergonomic
 ::espically::especially
 ::esspecially::especially
