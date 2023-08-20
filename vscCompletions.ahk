@@ -8,17 +8,29 @@
 
 #HotIf WinActive(browser.vscode.winTitle)
 
+;// formatting things
+:o:<kbd:: {
+	Send("{Raw}<kbd></kbd>")
+	SendInput("{Left 6}")
+}
+
+:o:<u:: {
+	Send("{Raw}<u></u>")
+	SendInput("{Left 4}")
+}
+
+;// function replacements
 :o:toolc:: {
 	Send("{Raw}tool.Cust(`"`")")
 	SendInput("{Left 2}")
 }
-:*:toolt`s:: {
+:*:toolt`s:: { ;// only works with a space input
 	Send("{Raw}tool.tray({text: `"`"})")
 	SendInput("{Left 3}")
 }
 :o:toolw::tool.Wait()
 
-:*:coords`t::coord.s()
+:*:coords`t::coord.s() ;// only works with a tab input
 :o:coordw::coord.w()
 :o:coordc::coord.c()
 :o:coordclient::coord.client()
