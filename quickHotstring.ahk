@@ -51,6 +51,7 @@ ShowInputBox(DefaultValue, inputs := "")
         else
         {
             ; Hotstring Entered.Label, Entered.Replacement  ; Enable the hotstring now.
+            __append(Trim(IB.Value, " "))
             FileAppend "`n" Trim(IB.Value, " "), A_ScriptFullPath  ; Save the hotstring for later use.
         }
     }
@@ -73,4 +74,23 @@ ShowInputBox(DefaultValue, inputs := "")
             SendInput(inputs)
         SetTimer , 0
     }
+}
+
+/**
+ * This function will automatically place new additions into the correctly sorted position
+ */
+__append(appendText) {
+    blockSubstr := SubStr(
+                            origFile := FileRead(A_ScriptFullPath)
+                            , origStart := InStr(
+                                                    origFile
+                                                    , "::"
+                                                    ,, InStr(origFile, ";{ " SubStr(appendText, 3, 1)))
+                            , InStr(origFile, ";}",, origStart, 1) - origStart-1
+                        )
+    toSort := blockSubstr "`n" appendText
+    sortedStr := sort(Trim(toSort, " "), "C0")
+    newStr := StrReplace(origFile, blockSubstr, sortedStr)
+    FileAppend(newStr, "temp.ahk")
+    Run(A_ScriptDir "\Support Files\replace.ahk")
 }

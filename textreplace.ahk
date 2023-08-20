@@ -374,6 +374,7 @@ startupTray()
 ;{ t
 ::technicion::technician
 ::tedius::tedious
+::tempromental::temperamental
 ::tomorroqw::tomorrow
 ::transfered::transferred
 ::transparancy::transparency
