@@ -376,6 +376,7 @@ startupTray()
 ::tedius::tedious
 ::tempromental::temperamental
 ::tomorroqw::tomorrow
+::tought::taught
 ::transfered::transferred
 ::transparancy::transparency
 ::trialing::trialling
