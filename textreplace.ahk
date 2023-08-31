@@ -228,6 +228,7 @@ startupTray()
 ::immensly::immensely
 ::impatiant::impatient
 ::implomentation::implementation
+::incompetant::incompetent
 ::incrementially::incrementally
 ::incrimentally::incrementally
 ::inevitibly::inevitably
