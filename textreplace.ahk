@@ -333,6 +333,8 @@ startupTray()
 
 ;{ r
 ::realisttically::realistically
+::recepie::recipe
+::recepies::recipes
 ::reciepts::receipts
 ::recieve::receive
 ::redundent::redundant
