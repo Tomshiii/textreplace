@@ -7,7 +7,7 @@
 
 SetWorkingDir("..\")
 detect()
-if WinExist("textreplace.ahk")
-    WinClose("textreplace.ahk")
+if WinExist("textreplace.ahk",, "Visual Studio Code")
+    WinClose("textreplace.ahk",,, "Visual Studio Code")
 try FileMove(A_WorkingDir "\temp.ahk", A_WorkingDir "\textreplace.ahk", 1)
 Run("textreplace.ahk")

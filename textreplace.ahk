@@ -123,6 +123,7 @@ startupTray()
 ::arguement::argument
 ::arguements::arguments
 ::asign::assign
+::assesment::assessment
 ::assignement::assignment
 ::assosiate::associate
 ::assosiated::associated
@@ -147,9 +148,9 @@ startupTray()
 ;}
 
 ;{ c
+::calibur::caliber
 ::catestrophic::catastrophic
 ::caviate::caveat
-::centered::centred
 ::comapre::compare
 ::committment::commitment
 ::compisition::composition
@@ -278,6 +279,7 @@ startupTray()
 ::neccessary::necessary
 ::nepatism::nepotism
 ::neurodivergant::neurodivergent
+::nothign::nothing
 ::notible::notable
 ::noticable::noticeable
 ::noticably::noticeably
@@ -307,6 +309,7 @@ startupTray()
 ::outragously::outrageously
 ::overal::overall
 ::overide::override
+::overide::override
 ::overzelous::overzealous
 ;}
 
@@ -325,6 +328,7 @@ startupTray()
 ::proccess::process
 ::propeganda::propaganda
 ::psudo::pseudo
+::publically::publicly
 ;}
 
 ;{ q
