@@ -154,6 +154,7 @@ startupTray()
 ::comapre::compare
 ::committment::commitment
 ::compisition::composition
+::concensus::consensus
 ::condensor::condenser
 ::contriversy::controversy
 ::cooincidence::coincidence
@@ -223,6 +224,7 @@ startupTray()
 ::harrass::harass
 ::harrassing::harassing
 ::harrassment::harassment
+::hinderance::hindrance
 ;}
 
 ;{ i
@@ -337,6 +339,7 @@ startupTray()
 
 ;{ r
 ::realisttically::realistically
+::reasses::reassess
 ::recepie::recipe
 ::recepies::recipes
 ::reciepts::receipts
