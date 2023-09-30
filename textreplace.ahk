@@ -118,6 +118,7 @@ startupTray()
 ::amazin::amazing
 ::antena::antenna
 ::applicible::applicable
+::aqcuiring::acquiring
 ::aquantences::acquaintances
 ::aquired::acquired
 ::arguement::argument
@@ -353,6 +354,7 @@ startupTray()
 ::resoltion::resolution
 ::resteraunts::restaurants
 ::restraunts::restaurants
+::ruccus::ruckus
 ;}
 
 ;{ s
@@ -366,6 +368,7 @@ startupTray()
 ::soley::solely
 ::soly::solely
 ::spliting::splitting
+::spontaniously::spontaneously
 ::structered::structured
 ::suceed::succeed
 ::suceeded::succeeded
