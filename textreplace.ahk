@@ -16,7 +16,7 @@ startupTray()
 
 ; This script will continue to be a long term work in progress and will move quite slowling in comparison to everything else
 
-#+e::
+/* #+e::
 {
 	if !WinExist("ahk_exe Code.exe") ;if you don't open vscode first, it will open the script in a blank workspace which is incredibly annoying
 		{
@@ -35,7 +35,7 @@ startupTray()
 	else
 		tool.Cust("opening " A_ScriptName)
 	Run(ptf.ProgFi "\Microsoft VS Code\Code.exe " ptf["textreplace"])
-}
+} */
 
 /* ;gets reloaded in the main script
 #+r:: ;win + r reloads this script
@@ -345,6 +345,7 @@ startupTray()
 ::recepies::recipes
 ::reciepts::receipts
 ::recieve::receive
+::recieving::receiving
 ::redundent::redundant
 ::referal::referral
 ::refferal::referral
