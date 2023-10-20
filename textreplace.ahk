@@ -388,13 +388,14 @@ startupTray()
 ;{ t
 ::technicion::technician
 ::tedius::tedious
+::teh::the
 ::tempromental::temperamental
 ::tomorroqw::tomorrow
 ::tought::taught
 ::transfered::transferred
 ::transparancy::transparency
 ::trialing::trialling
-::tyope::type
+::tyope::typ
 ;}
 
 ;{ u
