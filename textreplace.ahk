@@ -138,6 +138,7 @@ startupTray()
 ::balistic::ballistic
 ::barrelling::barreling
 ::becuase::because
+::beggining::beginning
 ::begining::beginning
 ::behemouth::behemoth
 ::behing::behind
@@ -359,6 +360,7 @@ startupTray()
 ;}
 
 ;{ s
+::salaray::salary
 ::scamed::scammed
 ::scedadle::skedaddle
 ::sentimant::sentiment
