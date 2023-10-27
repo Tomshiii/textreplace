@@ -168,6 +168,7 @@ startupTray()
 ;}
 
 ;{ d
+::deescelate::deescalate
 ::deminishing::diminishing
 ::demonstated::demonstrated
 ::demorilising::demoralising
@@ -233,6 +234,7 @@ startupTray()
 ::immensly::immensely
 ::impatiant::impatient
 ::implomentation::implementation
+::inadvertantly::inadvertently
 ::incompetant::incompetent
 ::incrementially::incrementally
 ::incrimentally::incrementally
@@ -260,6 +262,7 @@ startupTray()
 ;}
 
 ;{ l
+::libedo::libido
 ::likelyhood::likelihood
 ::literaelly::literally
 ::literaly::literally
