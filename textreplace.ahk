@@ -117,6 +117,7 @@ startupTray()
 ::agressive::aggressive
 ::amazin::amazing
 ::antena::antenna
+::aparent::apparent
 ::applicible::applicable
 ::aqcuiring::acquiring
 ::aquantences::acquaintances
@@ -317,6 +318,7 @@ startupTray()
 ::overal::overall
 ::overide::override
 ::overide::override
+::overridding::overriding
 ::overzelous::overzealous
 ;}
 
@@ -349,6 +351,8 @@ startupTray()
 ::recepies::recipes
 ::reciepts::receipts
 ::recieve::receive
+::reciever::receiver
+::recievers::receivers
 ::recieving::receiving
 ::redundent::redundant
 ::referal::referral
@@ -376,6 +380,7 @@ startupTray()
 ::spliting::splitting
 ::spontaniously::spontaneously
 ::structered::structured
+::subconcious::subconscious
 ::suceed::succeed
 ::suceeded::succeeded
 ::sucess::success
