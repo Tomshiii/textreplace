@@ -118,6 +118,7 @@ startupTray()
 ::amazin::amazing
 ::antena::antenna
 ::aparent::apparent
+::apparant::apparent
 ::applicible::applicable
 ::aqcuiring::acquiring
 ::aquantences::acquaintances
@@ -184,6 +185,7 @@ startupTray()
 ::digestable::digestible
 ::disablled::disabled
 ::disapear::disappear
+::disect::dissect
 ::disengenious::disingenuous
 ::dissapointed::disappointed
 ::downlaod::download
@@ -236,6 +238,7 @@ startupTray()
 ::impatiant::impatient
 ::implomentation::implementation
 ::inadvertantly::inadvertently
+::inaudable::inaudible
 ::incompetant::incompetent
 ::incrementially::incrementally
 ::incrimentally::incrementally
@@ -390,6 +393,7 @@ startupTray()
 ::sudo::pseudo
 ::superceed::supersede
 ::superceeded::superseded
+::suplimentary::supplementary
 ::supress::suppress
 ::supressed::suppressed
 ::syntatically::syntactically
@@ -409,6 +413,7 @@ startupTray()
 ;}
 
 ;{ u
+::ubruptly::abruptly
 ::udpates::updates
 ::unconciouosly::unconsciously
 ::uninpeaded::unimpeded
