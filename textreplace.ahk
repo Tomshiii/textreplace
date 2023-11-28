@@ -237,6 +237,7 @@ startupTray()
 ::immensly::immensely
 ::impatiant::impatient
 ::implomentation::implementation
+::impossability::impossibility
 ::inadvertantly::inadvertently
 ::inaudable::inaudible
 ::incompetant::incompetent
