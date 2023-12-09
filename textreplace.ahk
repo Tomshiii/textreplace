@@ -113,10 +113,13 @@ startupTray()
 ::accomidate::accommodate
 ::accomodate::accommodate
 ::adament::adamant
+::aditional::additional
 ::admittidely::admittedly
 ::agressive::aggressive
+::albiet::albeit
 ::amazin::amazing
 ::antena::antenna
+::aparant::apparent
 ::aparent::apparent
 ::apparant::apparent
 ::applicible::applicable
@@ -132,7 +135,7 @@ startupTray()
 ::assosiated::associated
 ::attatch::attach
 ::attatched::attached
-::axolotil::axolotl
+::axolotil::axolo
 ;}
 
 ;{ b
@@ -272,6 +275,7 @@ startupTray()
 ::literaelly::literally
 ::literaly::literally
 ::litereally::literally
+::lorals::laurels
 ::luxery::luxury
 ;}
 
@@ -417,6 +421,7 @@ startupTray()
 ::ubruptly::abruptly
 ::udpates::updates
 ::unconciouosly::unconsciously
+::unforuntately::unfortunately
 ::uninpeaded::unimpeded
 ::unneccesarily::unnecessarily
 ::unneccesarry::unnecessary
