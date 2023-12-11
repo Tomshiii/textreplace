@@ -204,12 +204,14 @@ startupTray()
 ::espically::especially
 ::esspecially::especially
 ::everthing::everything
+::excercising::exercising
 ::excersise::exercise
+::excersises::exercises
 ::existant::existent
 ::explaination::explanation
 ::explanitory::explanatory
 ::exploaded::exploded
-::extrodinaire::extraordinaire
+::extrodinaire::extraordinair
 ;}
 
 ;{ f

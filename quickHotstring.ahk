@@ -51,8 +51,9 @@ ShowInputBox(DefaultValue, inputs := "")
         else
         {
             ; Hotstring Entered.Label, Entered.Replacement  ; Enable the hotstring now.
-            __append(Trim(IB.Value, " "))
-            FileAppend "`n" Trim(IB.Value, " "), A_ScriptFullPath  ; Save the hotstring for later use.
+            appVal := StrLower(Trim(IB.Value, " "))
+            __append(appVal)
+            FileAppend "`n" appVal, A_ScriptFullPath  ; Save the hotstring for later use.
         }
     }
     else
