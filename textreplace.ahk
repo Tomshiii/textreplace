@@ -357,6 +357,7 @@ startupTray()
 ;{ r
 ::realisttically::realistically
 ::reasses::reassess
+::rebutal::rebuttal
 ::recepie::recipe
 ::recepies::recipes
 ::reciepts::receipts
