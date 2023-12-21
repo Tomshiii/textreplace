@@ -136,7 +136,7 @@ startupTray()
 ::assosiated::associated
 ::attatch::attach
 ::attatched::attached
-::axolotil::axolo
+::axolotil::axolotl
 ;}
 
 ;{ b
