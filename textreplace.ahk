@@ -113,10 +113,13 @@ startupTray()
 ::accomidate::accommodate
 ::accomodate::accommodate
 ::adament::adamant
+::aditional::additional
 ::admittidely::admittedly
 ::agressive::aggressive
+::albiet::albeit
 ::amazin::amazing
 ::antena::antenna
+::aparant::apparent
 ::aparent::apparent
 ::apparant::apparent
 ::applicible::applicable
@@ -133,7 +136,11 @@ startupTray()
 ::assosiated::associated
 ::attatch::attach
 ::attatched::attached
+<<<<<<< HEAD
 ::axolotil::axolotl
+=======
+::axolotil::axolo
+>>>>>>> a576be22ee2c54d8d5bc900e86f2e8b8e56e4a60
 ;}
 
 ;{ b
@@ -202,7 +209,9 @@ startupTray()
 ::espically::especially
 ::esspecially::especially
 ::everthing::everything
+::excercising::exercising
 ::excersise::exercise
+::excersises::exercises
 ::existant::existent
 ::explaination::explanation
 ::explanitory::explanatory
@@ -273,6 +282,7 @@ startupTray()
 ::literaelly::literally
 ::literaly::literally
 ::litereally::literally
+::lorals::laurels
 ::luxery::luxury
 ;}
 
@@ -352,6 +362,7 @@ startupTray()
 ;{ r
 ::realisttically::realistically
 ::reasses::reassess
+::rebutal::rebuttal
 ::recepie::recipe
 ::recepies::recipes
 ::reciepts::receipts
@@ -418,6 +429,7 @@ startupTray()
 ::ubruptly::abruptly
 ::udpates::updates
 ::unconciouosly::unconsciously
+::unforuntately::unfortunately
 ::uninpeaded::unimpeded
 ::unneccesarily::unnecessarily
 ::unneccesarry::unnecessary

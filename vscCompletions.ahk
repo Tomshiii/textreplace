@@ -75,6 +75,7 @@ class Apps {
     static editorsLoc := base "<Classes\Editors"
     static __Item     := Map(
         "discord",      this.appsLoc "\Discord>",
+        "slack",        this.appsLoc "\Slack>",
         "vscode",       this.appsLoc "\VSCode>",
 
         "premiere",     this.editorsLoc "\Premiere>",
@@ -138,6 +139,7 @@ class Apps {
 
 	;{ // Apps
 	:ox:incdiscord::Send(Apps["discord"])
+	:ox:incslack::Send(Apps["slack"])
 	:ox:incvscode::Send(Apps["vscode"])
         ;{ // Editors
         :ox:incpremiere::Send(Apps["premiere"])
