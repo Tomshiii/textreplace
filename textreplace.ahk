@@ -136,11 +136,7 @@ startupTray()
 ::assosiated::associated
 ::attatch::attach
 ::attatched::attached
-<<<<<<< HEAD
-::axolotil::axolotl
-=======
 ::axolotil::axolo
->>>>>>> a576be22ee2c54d8d5bc900e86f2e8b8e56e4a60
 ;}
 
 ;{ b
