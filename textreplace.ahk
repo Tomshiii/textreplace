@@ -120,6 +120,7 @@ startupTray()
 ::aparent::apparent
 ::apparant::apparent
 ::applicible::applicable
+::aprehensive::apprehensive
 ::aqcuiring::acquiring
 ::aquantences::acquaintances
 ::aquired::acquired
