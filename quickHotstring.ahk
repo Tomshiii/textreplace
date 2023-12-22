@@ -53,7 +53,6 @@ ShowInputBox(DefaultValue, inputs := "")
             ; Hotstring Entered.Label, Entered.Replacement  ; Enable the hotstring now.
             appVal := StrLower(Trim(IB.Value, " "))
             __append(appVal)
-            FileAppend "`n" appVal, A_ScriptFullPath  ; Save the hotstring for later use.
         }
     }
     else
@@ -79,19 +78,37 @@ ShowInputBox(DefaultValue, inputs := "")
 
 /**
  * This function will automatically place new additions into the correctly sorted position
+ * @param {String} appendText the hotstring text passed into the function by the GUI
  */
 __append(appendText) {
-    blockSubstr := SubStr(
-                            origFile := FileRead(A_ScriptFullPath)
-                            , origStart := InStr(
-                                                    origFile
-                                                    , "::"
-                                                    ,, InStr(origFile, ";{ " SubStr(appendText, 3, 1)))
-                            , InStr(origFile, ";}",, origStart, 1) - origStart-1
-                        )
-    toSort := blockSubstr "`n" appendText
-    sortedStr := sort(Trim(toSort, " "), "C0")
-    newStr := StrReplace(origFile, blockSubstr, sortedStr)
-    FileAppend(newStr, "temp.ahk")
-    Run(A_ScriptDir "\Support Files\replace.ahk")
+    iniPath     := A_ScriptDir "\autocorrections.ini"
+    appendSplit := StrSplit(Trim(appendText, " `r`n"), "::")
+    if appendSplit.Length > 2
+        appendSplit.RemoveAt(1)
+    sectionChar := SubStr(appendSplit[1], 1, 1)
+    ;// check to ensure the value doesn't already exist so it isn't potentially overridden
+    if IniRead(iniPath, sectionChar, appendSplit[1], false) != false {
+        MsgBox("Value may already exist!")
+        return
+    }
+    ;// add the value, then read the entire section, then sort it alphabetically
+    IniWrite(appendSplit[2], iniPath, sectionChar, appendSplit[1])
+    readSection := Sort(IniRead(iniPath, sectionChar), "C0")
+    splitSection := StrSplit(readSection, ["=", "`n", "`r"])
+    ;// delete all values already in the section
+    for k, v in splitSection {
+        if Mod(k, 2) = 0
+			continue
+		if k+1 > splitSection.Length
+			break
+        try IniDelete(iniPath, sectionChar, v)
+    }
+    ;// rewrite the section, sorted alphabetically
+    for k, v in splitSection {
+        if Mod(k, 2) = 0
+            continue
+        if k+1 > splitSection.Length
+            break
+        IniWrite(splitSection[k+1], iniPath, sectionChar, v)
+    }
 }
