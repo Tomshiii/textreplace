@@ -170,6 +170,7 @@ class Apps {
 	:ox:incprint::Send(Other "\print>")
 	:ox:incjson::Send(Other "\JSON>")
 	:ox:incuia::Send(Other "\UIA\UIA>")
+	:ox:incnotify::Send(Other "\Notify\Notify>")
 	;}
 
 ;\\
