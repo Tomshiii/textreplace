@@ -67,6 +67,7 @@ class Classes {
 		"ytdlp",		this.classLoc "\ytdlp>",
 		"errorLog",		this.classLoc "\errorLog>",
 		"log",		    this.classLoc "\log>",
+		"explorer",		this.classLoc "\explorer>",
 	)
 }
 
@@ -131,6 +132,7 @@ class Apps {
 	:ox:incerrorlog::Send(Classes["errorLog"])
 	:ox:inclog::Send(Classes["log"])
 	:ox:inclogs::Send(Classes["log"])
+	:ox:incexplorer::Send(Classes["explorer"])
 	;} //
 
 	;{ // ksa
