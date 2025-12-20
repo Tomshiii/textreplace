@@ -2,8 +2,9 @@
 ; This file does not need to be run individually and is #Included within textreplace.ahk
 
 ; { \\ #Includes
-#Include <Classes\ptf>
-#Include <Classes\Mip>
+#Include '%A_Appdata%\tomshi\lib'
+#Include Classes\ptf.ahk
+#Include Classes\Mip.ahk
 ; }
 
 #HotIf WinActive(browser.vscode.winTitle)
@@ -89,7 +90,7 @@ class Apps {
 ;// inc
 	;{ //inc
 	:o:incinc::{
-		Send("{Raw}; { \\ #Includes`n`n; ") ;vscode autogenerates and ending brace
+		Send("{Raw}; { \\ #Includes`n#Include '%A_Appdata%\tomshi\lib'`n; ") ;vscode autogenerates and ending brace
 		SendInput("{Up}")
 	}
 	;}
