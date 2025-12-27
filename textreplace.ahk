@@ -2,14 +2,15 @@
 #Requires AutoHotkey v2.0
 
 ; { \\ #Includes
+#Include *i vscCompletions.ahk
+#Include *i quickHotstring.ahk
+#Include *i personalHotstrings.ahk
+;The above are not necessary for this script to run
+
 #Include '%A_Appdata%\tomshi\lib'
 #Include Classes\ptf.ahk
 #Include Classes\tool.ahk
 #Include Functions\trayShortcut.ahk
-;The below are not necessary for this script to run
-#Include *i vscCompletions.ahk
-#Include *i quickHotstring.ahk
-#Include *i personalHotstrings.ahk
 ; }
 
 TraySetIcon(ptf.Icons "\text.png")

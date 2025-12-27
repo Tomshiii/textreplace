@@ -45,45 +45,45 @@
 base := "{Raw}#Include "
 
 class Classes {
-    static classLoc := base "<Classes"
+    static classLoc := base "Classes"
 	static __Item   := Mip(
-		"block",		this.classLoc "\block>",
-		"clip",			this.classLoc "\clip>",
-		"cmd",			this.classLoc "\cmd>",
-		"coord",		this.classLoc "\coord>",
-		"dark",		    this.classLoc "\dark>",
-		"ffmpeg",		this.classLoc "\ffmpeg>",
-		"keys",		    this.classLoc "\keys>",
-		"mip",		    this.classLoc "\Mip>",
-		"Move",			this.classLoc "\Move>",
-		"obj",			this.classLoc "\obj>",
-		"pause",		this.classLoc "\pause>",
-		"ptf",			this.classLoc "\ptf>",
-		"settings",		this.classLoc "\settings>",
-		"switchTo",		this.classLoc "\switchTo>",
-		"timer",		this.classLoc "\timer>",
-		"tool",			this.classLoc "\tool>",
-		"winget",		this.classLoc "\winget>",
-		"wm",		    this.classLoc "\wm>",
-		"ytdlp",		this.classLoc "\ytdlp>",
-		"errorLog",		this.classLoc "\errorLog>",
-		"log",		    this.classLoc "\log>",
-		"explorer",		this.classLoc "\explorer>",
+		"block",		this.classLoc "\block.ahk",
+		"clip",			this.classLoc "\clip.ahk",
+		"cmd",			this.classLoc "\cmd.ahk",
+		"coord",		this.classLoc "\coord.ahk",
+		"dark",		    this.classLoc "\dark.ahk",
+		"ffmpeg",		this.classLoc "\ffmpeg.ahk",
+		"keys",		    this.classLoc "\keys.ahk",
+		"mip",		    this.classLoc "\Mip.ahk",
+		"Move",			this.classLoc "\Move.ahk",
+		"obj",			this.classLoc "\obj.ahk",
+		"pause",		this.classLoc "\pause.ahk",
+		"ptf",			this.classLoc "\ptf.ahk",
+		"settings",		this.classLoc "\settings.ahk",
+		"switchTo",		this.classLoc "\switchTo.ahk",
+		"timer",		this.classLoc "\timer.ahk",
+		"tool",			this.classLoc "\tool.ahk",
+		"winget",		this.classLoc "\winget.ahk",
+		"wm",		    this.classLoc "\wm.ahk",
+		"ytdlp",		this.classLoc "\ytdlp.ahk",
+		"errorLog",		this.classLoc "\errorLog.ahk",
+		"log",		    this.classLoc "\log.ahk",
+		"explorer",		this.classLoc "\explorer.ahk",
 	)
 }
 
 class Apps {
-    static appsLoc    := base "<Classes\Apps"
-    static editorsLoc := base "<Classes\Editors"
+    static appsLoc    := base "Classes\Apps"
+    static editorsLoc := base "Classes\Editors"
     static __Item     := Map(
-        "discord",      this.appsLoc "\Discord>",
-        "slack",        this.appsLoc "\Slack>",
-        "vscode",       this.appsLoc "\VSCode>",
+        "discord",      this.appsLoc "\Discord.ahk",
+        "slack",        this.appsLoc "\Slack.ahk",
+        "vscode",       this.appsLoc "\VSCode.ahk",
 
-        "premiere",     this.editorsLoc "\Premiere>",
-        "photoshop",    this.editorsLoc "\Photoshop>",
-        "ae",      		this.editorsLoc "\After Effects>",
-        "resolve",      this.editorsLoc "\Resolve>",
+        "premiere",     this.editorsLoc "\Premiere.ahk",
+        "photoshop",    this.editorsLoc "\Photoshop.ahk",
+        "ae",      		this.editorsLoc "\After Effects.ahk",
+        "resolve",      this.editorsLoc "\Resolve.ahk",
     )
 }
 
@@ -91,7 +91,7 @@ class Apps {
 	;{ //inc
 	:o:incinc::{
 		Send("{Raw}; { \\ #Includes`n#Include '%A_Appdata%\tomshi\lib'`n; ") ;vscode autogenerates and ending brace
-		SendInput("{Up}")
+		SendInput("{Left 3}")
 	}
 	;}
 
