@@ -69,6 +69,7 @@ class Classes {
 		"errorLog",		this.classLoc "\errorLog.ahk",
 		"log",		    this.classLoc "\log.ahk",
 		"explorer",		this.classLoc "\explorer.ahk",
+		"winext",		this.classLoc "\winext.ahk"
 	)
 }
 
@@ -96,8 +97,8 @@ class Apps {
 	;}
 
 	;{ // root
-	:ox:incguis::Send(base "<GUIs\")
-	:ox:incgui::Send(base "<GUIs\")
+	:ox:incguis::Send(base "GUIs\")
+	:ox:incgui::Send(base "GUIs\")
 	;}
 
 	;{ // classes
@@ -106,7 +107,7 @@ class Apps {
 			Send(Classes[key] "`n")
 	}
 	;individual
-	:ox:incclass::Send(base "<Classes\")
+	:ox:incclass::Send(base "Classes\")
 	:ox:incblock::Send(Classes["block"])
 	:ox:incclip::Send(Classes["clip"])
 	:ox:inccmd::Send(Classes["cmd"])
@@ -134,35 +135,36 @@ class Apps {
 	:ox:inclog::Send(Classes["log"])
 	:ox:inclogs::Send(Classes["log"])
 	:ox:incexplorer::Send(Classes["explorer"])
+	:ox:incwinext::Send(Classes["winext"])
 	;} //
 
 	;{ // ksa
-	:ox:incksa::Send(base "<KSA\Keyboard Shortcut Adjustments>")
+	:ox:incksa::Send(base "KSA\Keyboard Shortcut Adjustments>")
 	;}
 
 	;{ // Apps
-	:ox:incdiscord::Send(Apps["discord"])
-	:ox:incslack::Send(Apps["slack"])
-	:ox:incvscode::Send(Apps["vscode"])
+	:ox:incdiscord::Send(Apps["discord.ahk"])
+	:ox:incslack::Send(Apps["slack.ahk"])
+	:ox:incvscode::Send(Apps["vscode.ahk"])
         ;{ // Editors
-        :ox:incpremiere::Send(Apps["premiere"])
-        :ox:incprem::Send(Apps["premiere"])
-        :ox:incphotoshop::Send(Apps["photoshop"])
-        :ox:incps::Send(Apps["photoshop"])
-        :ox:incae::Send(Apps["ae"])
-        :ox:incresolve::Send(Apps["resolve"])
+        :ox:incpremiere::Send(Apps["premiere.ahk"])
+        :ox:incprem::Send(Apps["premiere.ahk"])
+        :ox:incphotoshop::Send(Apps["photoshop.ahk"])
+        :ox:incps::Send(Apps["photoshop.ahk"])
+        :ox:incae::Send(Apps["ae.ahk"])
+        :ox:incresolve::Send(Apps["resolve.ahk"])
 	;}
 
 	;{ // funcs
-	funcs := base "<Functions"
+	funcs := base "Functions"
 	:ox:incfunc::Send(funcs "\")
 	:ox:incfuncs::Send(funcs "\")
 
-	:ox:incimg::Send(funcs "\checkImg>")
-	:ox:incdelay::Send(funcs "\delaySI>")
-	:ox:incdelaysi::Send(funcs "\delaySI>")
-	:ox:incdetect::Send(funcs "\detect>")
-	:ox:incgethotkeys::Send(funcs "\getHotkeys>")
+	:ox:incimg::Send(funcs "\checkImg.ahk")
+	:ox:incdelay::Send(funcs "\delaySI.ahk")
+	:ox:incdelaysi::Send(funcs "\delaySI.ahk")
+	:ox:incdetect::Send(funcs "\detect.ahk")
+	:ox:incgethotkeys::Send(funcs "\getHotkeys.ahk")
 	;}
 
 	;{ // Other
@@ -170,10 +172,10 @@ class Apps {
 	:ox:incOther::Send(Other "\")
 	:ox:incOthers::Send(Other "\")
 
-	:ox:incprint::Send(Other "\print>")
-	:ox:incjson::Send(Other "\JSON>")
-	:ox:incuia::Send(Other "\UIA\UIA>")
-	:ox:incnotify::Send(Other "\Notify\Notify>")
+	:ox:incprint::Send(Other "\print.ahk")
+	:ox:incjson::Send(Other "\JSON.ahk")
+	:ox:incuia::Send(Other "\UIA\UIA.ahk")
+	:ox:incnotify::Send(Other "\Notify\Notify.ahk")
 	;}
 
 ;\\
