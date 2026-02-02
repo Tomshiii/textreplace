@@ -143,16 +143,16 @@ class Apps {
 	;}
 
 	;{ // Apps
-	:ox:incdiscord::Send(Apps["discord.ahk"])
-	:ox:incslack::Send(Apps["slack.ahk"])
-	:ox:incvscode::Send(Apps["vscode.ahk"])
+	:ox:incdiscord::Send(Apps["discord"])
+	:ox:incslack::Send(Apps["slack"])
+	:ox:incvscode::Send(Apps["vscode"])
         ;{ // Editors
-        :ox:incpremiere::Send(Apps["premiere.ahk"])
-        :ox:incprem::Send(Apps["premiere.ahk"])
-        :ox:incphotoshop::Send(Apps["photoshop.ahk"])
-        :ox:incps::Send(Apps["photoshop.ahk"])
-        :ox:incae::Send(Apps["ae.ahk"])
-        :ox:incresolve::Send(Apps["resolve.ahk"])
+        :ox:incpremiere::Send(Apps["premiere"])
+        :ox:incprem::Send(Apps["premiere"])
+        :ox:incphotoshop::Send(Apps["photoshop"])
+        :ox:incps::Send(Apps["photoshop"])
+        :ox:incae::Send(Apps["ae"])
+        :ox:incresolve::Send(Apps["resolve"])
 	;}
 
 	;{ // funcs
