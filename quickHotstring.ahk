@@ -31,7 +31,7 @@ quickHotstring() { ;original code found here: https://lexikos.github.io/v2/docs/
 ShowInputBox(DefaultValue, inputs := "")
 {
     ; This will move the input box's caret to a more friendly position:
-    SetTimer MoveCaret, 10
+    SetTimer(MoveCaret, 10)
     ; Show the input box, providing the default hotstring:
     IB := InputBox("
     (
@@ -65,14 +65,14 @@ ShowInputBox(DefaultValue, inputs := "")
             quickHotstring()
     }
 
-    MoveCaret()
-    {
-        WinWait("New Hotstring",, 2)
+    MoveCaret() {
+        if !WinWait("New Hotstring",, 2)
+            return
         ; Otherwise, move the input box's insertion point to where the user will type the abbreviation.
         ; Send "{Home}{Right 2}"
         if inputs != ""
             SendInput(inputs)
-        SetTimer , 0
+        SetTimer(, 0)
     }
 }
 
