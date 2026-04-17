@@ -168,7 +168,7 @@ class Apps {
 	;}
 
 	;{ // Other
-	Other := base "<Other"
+	Other := base "Other"
 	:ox:incOther::Send(Other "\")
 	:ox:incOthers::Send(Other "\")
 
