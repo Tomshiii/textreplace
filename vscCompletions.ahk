@@ -139,7 +139,7 @@ class Apps {
 	;} //
 
 	;{ // ksa
-	:ox:incksa::Send(base "KSA\Keyboard Shortcut Adjustments>")
+	:ox:incksa::Send(base "KSA\Keyboard Shortcut Adjustments.ahk")
 	;}
 
 	;{ // Apps
